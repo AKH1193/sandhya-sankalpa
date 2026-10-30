@@ -40,8 +40,10 @@ Or connect the phone with USB debugging on and press Run.
    (including the hidden `.github` folder).
 2. Open the repository's Actions tab; the "Build APK" workflow runs on every push
    (or press "Run workflow").
-3. When it finishes, download the `SandhyaSankalpa-apk` artifact, unzip it on the
-   phone and install the APK.
+3. When it finishes (about 3 minutes), open
+   github.com/AKH1193/sandhya-sankalpa/releases/latest in Chrome on the phone,
+   tap `SandhyaSankalpa.apk`, then open the download to install. Every push
+   replaces this release with the new build.
 
 ## First launch on the phone
 
