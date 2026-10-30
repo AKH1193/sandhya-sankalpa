@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sandhya Sankalpa</title>
+<meta name="description" content="Daily Sandhyavandanam Sankalpa and timing calculator with a live Panchanga engine.">
+<meta name="theme-color" content="#f59e0b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Kannada:wght@400;600&family=Noto+Sans+Kannada:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Serif+Telugu:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Noto+Sans+Telugu:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+  // Theme before paint: saved choice, else system preference
+  (function(){
+    var t=null; try{ t=localStorage.getItem('ss_theme'); }catch(e){}
+    var dark = t ? t==='dark' : (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
+    if(dark) document.documentElement.classList.add('dark');
+  })();
+</script>
+<style>/* Tailwind CSS v3, precompiled for offline use */
+*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, "Noto Sans Kannada", "Noto Sans Devanagari", "Noto Sans Telugu", "Noto Sans Tamil", system-ui, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.card{border-radius:1.5rem;border-width:1px;border-color:rgb(231 229 228 / 0.8);background-color:rgb(255 255 255 / 0.9);--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.card:is(.dark *){--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1));background-color:rgb(15 23 42 / 0.8)}.btn{display:inline-flex;-webkit-user-select:none;user-select:none;align-items:center;justify-content:center;gap:0.375rem;border-radius:0.75rem;padding-left:0.75rem;padding-right:0.75rem;padding-top:0.625rem;padding-bottom:0.625rem;font-size:0.875rem;line-height:1.25rem;font-weight:500;transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.btn:focus{outline:2px solid transparent;outline-offset:2px}.btn:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.btn:active{--tw-scale-x:.98;--tw-scale-y:.98;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.btn-primary{display:inline-flex;-webkit-user-select:none;user-select:none;align-items:center;justify-content:center;gap:0.375rem;border-radius:0.75rem;padding-left:0.75rem;padding-right:0.75rem;padding-top:0.625rem;padding-bottom:0.625rem;font-size:0.875rem;line-height:1.25rem;font-weight:500;transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.btn-primary:focus{outline:2px solid transparent;outline-offset:2px}.btn-primary:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.btn-primary:active{--tw-scale-x:.98;--tw-scale-y:.98;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.btn-primary{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.btn-primary:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.btn-primary:is(.dark *){--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(2 6 23 / var(--tw-text-opacity, 1))}.btn-primary:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(251 191 36 / var(--tw-bg-opacity, 1))}.btn-ghost{display:inline-flex;-webkit-user-select:none;user-select:none;align-items:center;justify-content:center;gap:0.375rem;border-radius:0.75rem;padding-left:0.75rem;padding-right:0.75rem;padding-top:0.625rem;padding-bottom:0.625rem;font-size:0.875rem;line-height:1.25rem;font-weight:500;transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.btn-ghost:focus{outline:2px solid transparent;outline-offset:2px}.btn-ghost:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.btn-ghost:active{--tw-scale-x:.98;--tw-scale-y:.98;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.btn-ghost{--tw-bg-opacity:1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.btn-ghost:hover{--tw-bg-opacity:1;background-color:rgb(231 229 228 / var(--tw-bg-opacity, 1))}.btn-ghost:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.btn-ghost:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.btn-icon{display:inline-flex;-webkit-user-select:none;user-select:none;align-items:center;justify-content:center;gap:0.375rem;border-radius:0.75rem;padding-left:0.75rem;padding-right:0.75rem;padding-top:0.625rem;padding-bottom:0.625rem;font-size:0.875rem;line-height:1.25rem;font-weight:500;transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.btn-icon:focus{outline:2px solid transparent;outline-offset:2px}.btn-icon:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.btn-icon:active{--tw-scale-x:.98;--tw-scale-y:.98;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.btn-icon{--tw-bg-opacity:1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1));padding-left:0.625rem !important;padding-right:0.625rem !important;--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.btn-icon:hover{--tw-bg-opacity:1;background-color:rgb(231 229 228 / var(--tw-bg-opacity, 1))}.btn-icon:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.btn-icon:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.seg{display:flex;border-radius:0.75rem;--tw-bg-opacity:1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1));padding:0.25rem}.seg:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.seg button{flex:1 1 0%;border-radius:0.5rem;padding-left:0.5rem;padding-right:0.5rem;padding-top:0.375rem;padding-bottom:0.375rem;font-size:0.875rem;line-height:1.25rem;font-weight:500;--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1));transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.seg button:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.seg button[aria-pressed="true"]{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1));--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.seg button[aria-pressed="true"]:is(.dark *){--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1));--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.field{width:100%;border-radius:0.75rem;border-width:1px;--tw-border-opacity:1;border-color:rgb(231 229 228 / var(--tw-border-opacity, 1));--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1));padding-left:0.75rem;padding-right:0.75rem;padding-top:0.625rem;padding-bottom:0.625rem;font-size:0.875rem;line-height:1.25rem}.field:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.field:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1));--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}.label{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.05em;--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.label:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.chip{display:inline-flex;align-items:center;gap:0.25rem;border-radius:9999px;padding-left:0.5rem;padding-right:0.5rem;padding-top:0.125rem;padding-bottom:0.125rem;font-size:11px;font-weight:600}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-x-0{left:0px;right:0px}.bottom-0{bottom:0px}.bottom-24{bottom:6rem}.left-1{left:0.25rem}.left-1\/2{left:50%}.top-0{top:0px}.top-1{top:0.25rem}.z-40{z-index:40}.z-50{z-index:50}.col-span-2{grid-column:span 2 / span 2}.m-1{margin:0.25rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mt-1{margin-top:0.25rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.mt-0\.5{margin-top:0.125rem}.mt-2{margin-top:0.5rem}.mt-auto{margin-top:auto}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-11{height:2.75rem}.h-3\.5{height:0.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-9{height:2.25rem}.h-1\.5{height:0.375rem}.h-12{height:3rem}.h-2{height:0.5rem}.h-\[4\.25rem\]{height:4.25rem}.h-auto{height:auto}.min-h-screen{min-height:100vh}.w-11{width:2.75rem}.w-12{width:3rem}.w-3\.5{width:0.875rem}.w-32{width:8rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-9{width:2.25rem}.w-full{width:100%}.w-1\.5{width:0.375rem}.w-2{width:0.5rem}.min-w-0{min-width:0px}.max-w-5xl{max-width:64rem}.max-w-md{max-width:28rem}.max-w-\[60\%\]{max-width:60%}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-5{--tw-translate-x:1.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.grid-cols-7{grid-template-columns:repeat(7, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{place-items:center}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-0\.5{gap:0.125rem}.gap-1\.5{gap:0.375rem}.gap-x-3{column-gap:0.75rem}.gap-y-1\.5{row-gap:0.375rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.rounded-3xl{border-radius:1.5rem}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-amber-200\/60{border-color:rgb(253 230 138 / 0.6)}.border-amber-200\/70{border-color:rgb(253 230 138 / 0.7)}.border-stone-200{--tw-border-opacity:1;border-color:rgb(231 229 228 / var(--tw-border-opacity, 1))}.border-stone-200\/80{border-color:rgb(231 229 228 / 0.8)}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-amber-50\/70{background-color:rgb(255 251 235 / 0.7)}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-stone-300{--tw-bg-opacity:1;background-color:rgb(214 211 209 / var(--tw-bg-opacity, 1))}.bg-stone-50{--tw-bg-opacity:1;background-color:rgb(250 250 249 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.\!bg-amber-100{--tw-bg-opacity:1 !important;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1)) !important}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-orange-100{--tw-bg-opacity:1;background-color:rgb(255 237 213 / var(--tw-bg-opacity, 1))}.bg-orange-500{--tw-bg-opacity:1;background-color:rgb(249 115 22 / var(--tw-bg-opacity, 1))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230 / var(--tw-bg-opacity, 1))}.bg-rose-50{--tw-bg-opacity:1;background-color:rgb(255 241 242 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-stone-100{--tw-bg-opacity:1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1))}.bg-stone-100\/70{background-color:rgb(245 245 244 / 0.7)}.bg-stone-100\/80{background-color:rgb(245 245 244 / 0.8)}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246 / var(--tw-bg-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.from-amber-400{--tw-gradient-from:#fbbf24 var(--tw-gradient-from-position);--tw-gradient-to:rgb(251 191 36 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-orange-500{--tw-gradient-to:#f97316 var(--tw-gradient-to-position)}.fill-amber-400{fill:#fbbf24}.fill-amber-500{fill:#f59e0b}.fill-orange-400{fill:#fb923c}.fill-rose-400{fill:#fb7185}.fill-slate-500{fill:#64748b}.fill-slate-400{fill:#94a3b8}.stroke-amber-500{stroke:#f59e0b}.stroke-slate-300{stroke:#cbd5e1}.p-4{padding:1rem}.p-1{padding:0.25rem}.p-3{padding:0.75rem}.\!px-1{padding-left:0.25rem !important;padding-right:0.25rem !important}.\!py-1\.5{padding-top:0.375rem !important;padding-bottom:0.375rem !important}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.\!px-2\.5{padding-left:0.625rem !important;padding-right:0.625rem !important}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.pb-40{padding-bottom:10rem}.pb-\[max\(\.75rem\2c env\(safe-area-inset-bottom\)\)\]{padding-bottom:max(.75rem,env(safe-area-inset-bottom))}.pt-2{padding-top:0.5rem}.pt-\[max\(\.5rem\2c env\(safe-area-inset-top\)\)\]{padding-top:max(.5rem,env(safe-area-inset-top))}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-sans{font-family:Inter, "Noto Sans Kannada", "Noto Sans Devanagari", "Noto Sans Telugu", "Noto Sans Tamil", system-ui, sans-serif}.font-kn{font-family:"Noto Serif Kannada", "Noto Sans Kannada", serif}.font-dv{font-family:"Noto Serif Devanagari", "Noto Sans Devanagari", serif}.font-serif{font-family:"Noto Serif", Georgia, serif}.font-ta{font-family:"Noto Serif Tamil", "Noto Sans Tamil", serif}.font-te{font-family:"Noto Serif Telugu", "Noto Sans Telugu", serif}.text-\[11px\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.\!text-xs{font-size:0.75rem !important;line-height:1rem !important}.text-\[1\.6rem\]{font-size:1.6rem}.text-\[10px\]{font-size:10px}.text-\[9px\]{font-size:9px}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-normal{font-weight:400}.uppercase{text-transform:uppercase}.tabular-nums{--tw-numeric-spacing:tabular-nums;font-variant-numeric:var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)}.leading-loose{line-height:2}.leading-relaxed{line-height:1.625}.leading-none{line-height:1}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.\!text-amber-600{--tw-text-opacity:1 !important;color:rgb(217 119 6 / var(--tw-text-opacity, 1)) !important}.\!text-amber-800{--tw-text-opacity:1 !important;color:rgb(146 64 14 / var(--tw-text-opacity, 1)) !important}.\!text-rose-700{--tw-text-opacity:1 !important;color:rgb(190 18 60 / var(--tw-text-opacity, 1)) !important}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-indigo-700{--tw-text-opacity:1;color:rgb(67 56 202 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.accent-amber-500{accent-color:#f59e0b}.opacity-70{opacity:0.7}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-amber-500\/30{--tw-shadow-color:rgb(245 158 11 / 0.3);--tw-shadow:var(--tw-shadow-colored)}.shadow-slate-900\/10{--tw-shadow-color:rgb(15 23 42 / 0.1);--tw-shadow:var(--tw-shadow-colored)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-amber-400\/80{--tw-ring-color:rgb(251 191 36 / 0.8)}.ring-amber-500{--tw-ring-opacity:1;--tw-ring-color:rgb(245 158 11 / var(--tw-ring-opacity, 1))}.ring-amber-400{--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}
+  .hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}
+  .hover\:bg-stone-200:hover{--tw-bg-opacity:1;background-color:rgb(231 229 228 / var(--tw-bg-opacity, 1))}
+  .focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}
+  .focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}
+  .focus\:ring-amber-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}
+  .focus-visible\:ring-2:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}
+  .focus-visible\:ring-amber-400:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(251 191 36 / var(--tw-ring-opacity, 1))}
+  .active\:scale-\[\.98\]:active{--tw-scale-x:.98;--tw-scale-y:.98;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+  .group[open] .group-open\:rotate-90{--tw-rotate:90deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+  .dark\:border-amber-400\/10:is(.dark *){border-color:rgb(251 191 36 / 0.1)}
+  .dark\:border-slate-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}
+  .dark\:border-slate-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}
+  .dark\:bg-amber-500\/15:is(.dark *){background-color:rgb(245 158 11 / 0.15)}
+  .dark\:bg-amber-500\/5:is(.dark *){background-color:rgb(245 158 11 / 0.05)}
+  .dark\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}
+  .dark\:bg-slate-900\/95:is(.dark *){background-color:rgb(15 23 42 / 0.95)}
+  .dark\:bg-slate-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}
+  .dark\:bg-white:is(.dark *){--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}
+  .dark\:\!bg-amber-500\/15:is(.dark *){background-color:rgb(245 158 11 / 0.15) !important}
+  .dark\:bg-emerald-500\/15:is(.dark *){background-color:rgb(16 185 129 / 0.15)}
+  .dark\:bg-orange-500\/15:is(.dark *){background-color:rgb(249 115 22 / 0.15)}
+  .dark\:bg-rose-500\/10:is(.dark *){background-color:rgb(244 63 94 / 0.1)}
+  .dark\:bg-rose-500\/15:is(.dark *){background-color:rgb(244 63 94 / 0.15)}
+  .dark\:bg-slate-200:is(.dark *){--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}
+  .dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}
+  .dark\:bg-slate-800\/50:is(.dark *){background-color:rgb(30 41 59 / 0.5)}
+  .dark\:bg-slate-800\/60:is(.dark *){background-color:rgb(30 41 59 / 0.6)}
+  .dark\:bg-amber-500:is(.dark *){--tw-bg-opacity:1;background-color:rgb(245 158 11 / var(--tw-bg-opacity, 1))}
+  .dark\:bg-amber-500\/10:is(.dark *){background-color:rgb(245 158 11 / 0.1)}
+  .dark\:bg-slate-900\/80:is(.dark *){background-color:rgb(15 23 42 / 0.8)}
+  .dark\:fill-slate-400:is(.dark *){fill:#94a3b8}
+  .dark\:fill-slate-500:is(.dark *){fill:#64748b}
+  .dark\:stroke-slate-600:is(.dark *){stroke:#475569}
+  .dark\:stroke-slate-700:is(.dark *){stroke:#334155}
+  .dark\:text-amber-300:is(.dark *){--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}
+  .dark\:text-amber-50\/90:is(.dark *){color:rgb(255 251 235 / 0.9)}
+  .dark\:text-slate-100:is(.dark *){--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}
+  .dark\:text-slate-300:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}
+  .dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}
+  .dark\:text-slate-900:is(.dark *){--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}
+  .dark\:text-slate-950:is(.dark *){--tw-text-opacity:1;color:rgb(2 6 23 / var(--tw-text-opacity, 1))}
+  .dark\:\!text-amber-200:is(.dark *){--tw-text-opacity:1 !important;color:rgb(253 230 138 / var(--tw-text-opacity, 1)) !important}
+  .dark\:\!text-amber-300:is(.dark *){--tw-text-opacity:1 !important;color:rgb(252 211 77 / var(--tw-text-opacity, 1)) !important}
+  .dark\:\!text-rose-300:is(.dark *){--tw-text-opacity:1 !important;color:rgb(253 164 175 / var(--tw-text-opacity, 1)) !important}
+  .dark\:text-emerald-300:is(.dark *){--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}
+  .dark\:text-indigo-300:is(.dark *){--tw-text-opacity:1;color:rgb(165 180 252 / var(--tw-text-opacity, 1))}
+  .dark\:text-orange-300:is(.dark *){--tw-text-opacity:1;color:rgb(253 186 116 / var(--tw-text-opacity, 1))}
+  .dark\:text-rose-300:is(.dark *){--tw-text-opacity:1;color:rgb(253 164 175 / var(--tw-text-opacity, 1))}
+  .dark\:text-rose-400:is(.dark *){--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}
+  .dark\:text-slate-200:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}
+  .dark\:ring-amber-400\/60:is(.dark *){--tw-ring-color:rgb(251 191 36 / 0.6)}
+  .dark\:hover\:bg-amber-400:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(251 191 36 / var(--tw-bg-opacity, 1))}
+  .dark\:hover\:bg-slate-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}
+  @media (min-width: 1024px){.lg\:sticky{position:sticky}.lg\:top-4{top:1rem}.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:col-span-3{grid-column:span 3 / span 3}.lg\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}}
+
+</style>
+<style>
+  html{ -webkit-tap-highlight-color: transparent; }
+  body{ background-image: radial-gradient(1200px 500px at 50% -200px, rgba(251,191,36,.18), transparent 70%); background-repeat:no-repeat; }
+  .dark body{ background-image: radial-gradient(1200px 500px at 50% -200px, rgba(245,158,11,.10), transparent 70%); }
+  .tabular-nums{ font-variant-numeric: tabular-nums; }
+  #sankalpaText{ word-break: break-word; }
+  details > summary { list-style: none; } details > summary::-webkit-details-marker { display:none; }
+</style>
+</head>
+<body class="bg-stone-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased font-sans min-h-screen">
+<noscript><p style="padding:1rem">This calculator needs JavaScript enabled.</p></noscript>
+
+<!-- Audio start banner (shown only if the browser blocks autoplay) -->
+<div id="audioBanner" class="hidden fixed top-0 inset-x-0 z-50 px-3 pt-[max(.5rem,env(safe-area-inset-top))]">
+  <button id="audioBannerBtn" class="mx-auto max-w-md w-full flex items-center gap-2 rounded-2xl bg-amber-500 text-white dark:text-slate-950 px-4 py-3 shadow-lg text-sm font-medium">
+    <svg viewBox="0 0 24 24" class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+    <span id="audioBannerText" data-i18n="tapStart">Tap anywhere to start the devotional drone</span>
+  </button>
+</div>
+
+<div class="max-w-5xl mx-auto px-4 pb-40 pt-[max(.5rem,env(safe-area-inset-top))]">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between gap-3 py-4">
+    <div class="flex items-center gap-3 min-w-0">
+      <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 grid place-items-center text-white shadow-md shadow-amber-500/30 shrink-0">
+        <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      </div>
+      <div class="min-w-0">
+        <h1 class="text-lg font-semibold tracking-tight truncate" data-i18n="title">Sandhyā Sankalpa</h1>
+        <p class="text-xs text-slate-500 dark:text-slate-400 truncate" data-i18n="sub">Daily Panchānga · Sandhyāvandanam timings</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2 shrink-0">
+      <button id="musicBtn" class="btn-icon" aria-label="Devotional drone on or off" title="Devotional drone"></button>
+      <button id="themeBtn" class="btn-icon" aria-label="Toggle dark or light theme" title="Theme"></button>
+    </div>
+  </header>
+
+  <!-- Language -->
+  <div class="seg mb-4" role="group" aria-label="Language" id="langSeg">
+    <button data-lang="kn" class="font-sans !px-1">ಕನ್ನಡ</button>
+    <button data-lang="te" class="font-sans !px-1">తెలుగు</button>
+    <button data-lang="ta" class="font-sans !px-1">தமிழ்</button>
+    <button data-lang="hi" class="font-sans !px-1">हिन्दी</button>
+    <button data-lang="en" class="!px-1">English</button>
+  </div>
+
+  <!-- Location and date -->
+  <section class="card p-4 space-y-3">
+    <div class="flex gap-2">
+      <select id="citySel" class="field flex-1" aria-label="City"></select>
+      <button id="geoBtn" class="btn-ghost shrink-0" aria-label="Use my location">
+        <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <span data-i18n="locate">Locate</span>
+      </button>
+    </div>
+    <div class="flex items-center gap-2">
+      <button id="prevDay" class="btn-icon" aria-label="Previous day"><svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>
+      <input id="dateIn" type="date" class="field flex-1 text-center tabular-nums" aria-label="Date">
+      <button id="nextDay" class="btn-icon" aria-label="Next day"><svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>
+      <button id="todayBtn" class="btn-ghost" data-i18n="today">Today</button>
+    </div>
+    <p id="placeLine" class="text-xs text-slate-500 dark:text-slate-400"></p>
+    <details class="group">
+      <summary class="cursor-pointer text-xs font-medium text-amber-700 dark:text-amber-300 flex items-center gap-1">
+        <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 transition group-open:rotate-90" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg>
+        <span data-i18n="advanced">Custom coordinates</span>
+      </summary>
+      <div class="grid grid-cols-2 gap-2 mt-3">
+        <label class="space-y-1"><span class="label" data-i18n="lat">Latitude</span><input id="latIn" type="number" step="0.0001" min="-89" max="89" class="field tabular-nums"></label>
+        <label class="space-y-1"><span class="label" data-i18n="lon">Longitude</span><input id="lonIn" type="number" step="0.0001" min="-180" max="180" class="field tabular-nums"></label>
+        <label class="space-y-1 col-span-2"><span class="label" data-i18n="tz">Time zone</span><select id="tzIn" class="field"></select></label>
+        <button id="applyCoords" class="btn-primary col-span-2" data-i18n="apply">Apply</button>
+      </div>
+    </details>
+  </section>
+
+  <div class="grid lg:grid-cols-5 gap-4 mt-4 items-start">
+    <div class="lg:col-span-3 space-y-4">
+
+      <!-- Sun path -->
+      <section class="card p-4">
+        <div class="flex items-center justify-between mb-2">
+          <h2 class="label" data-i18n="sunPath">Sun path</h2>
+          <span id="dayLen" class="text-xs text-slate-500 dark:text-slate-400 tabular-nums"></span>
+        </div>
+        <div id="arc"></div>
+        <div id="sunFacts" class="grid grid-cols-3 gap-2 mt-3 text-center"></div>
+      </section>
+
+      <!-- Sandhya windows -->
+      <section>
+        <h2 class="label px-1 mb-2" data-i18n="windows">Sandhyā windows</h2>
+        <div id="sessions" class="space-y-3"></div>
+      </section>
+
+      <!-- Panchanga -->
+      <section class="card p-4">
+        <div class="flex items-center justify-between gap-2 mb-3">
+          <h2 class="font-semibold" id="panTitle">Panchānga</h2>
+          <span id="panAt" class="text-xs text-slate-500 dark:text-slate-400 text-right"></span>
+        </div>
+        <div id="panGrid" class="grid grid-cols-2 gap-2"></div>
+      </section>
+
+      <!-- Monthly calendar: Tamil (Sauramana) or Telugu/Kannada (Chandramana) -->
+      <section class="card p-4" id="calCard">
+        <div class="flex items-center justify-between gap-2">
+          <button id="calPrev" class="btn-icon" aria-label="Previous month"><svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>
+          <div class="text-center min-w-0">
+            <p class="label" id="calLabel">Calendar</p>
+            <h2 id="calTitle" class="font-semibold truncate"></h2>
+            <p id="calSub" class="text-xs text-slate-500 dark:text-slate-400 truncate"></p>
+          </div>
+          <button id="calNext" class="btn-icon" aria-label="Next month"><svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>
+        </div>
+        <div id="calHead" class="grid grid-cols-7 gap-1 mt-3 text-center text-[11px] font-medium text-slate-500 dark:text-slate-400"></div>
+        <div id="calGrid" class="grid grid-cols-7 gap-1 mt-1"></div>
+        <div id="calLegend" class="flex flex-wrap gap-x-3 gap-y-1.5 mt-3 text-[11px] text-slate-600 dark:text-slate-300"></div>
+      </section>
+    </div>
+
+    <!-- Sankalpa builder -->
+    <div class="lg:col-span-2 lg:sticky lg:top-4">
+      <section class="card p-4 space-y-3" id="sankalpaCard">
+        <div class="flex items-center justify-between gap-2">
+          <h2 id="sankalpaHead" class="font-semibold text-lg">Sankalpa</h2>
+          <div class="flex items-center gap-1">
+            <button id="fsDown" class="btn-icon !py-1.5 text-xs" aria-label="Smaller text">A−</button>
+            <button id="fsUp" class="btn-icon !py-1.5 text-sm" aria-label="Larger text">A+</button>
+          </div>
+        </div>
+        <div class="seg" role="group" aria-label="Sandhya session" id="sessSeg">
+          <button data-session="pratah"></button>
+          <button data-session="madhya"></button>
+          <button data-session="sayam"></button>
+        </div>
+        <div class="seg" role="group" aria-label="Month system" id="msSeg">
+          <button data-ms="chandra"></button>
+          <button data-ms="saura"></button>
+        </div>
+        <div class="seg hidden" role="group" aria-label="Transliteration style" id="engSeg">
+          <button data-eng="simple">Simple</button>
+          <button data-eng="iast">IAST</button>
+        </div>
+        <div class="rounded-2xl bg-amber-50/70 dark:bg-amber-500/5 border border-amber-200/60 dark:border-amber-400/10 p-4">
+          <p id="sankalpaText" class="leading-loose text-slate-800 dark:text-amber-50/90"></p>
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <button id="copyBtn" class="btn-primary"><svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span data-i18n="copy">Copy</span></button>
+          <button id="shareBtn" class="btn-ghost"><svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg><span data-i18n="share">Share</span></button>
+        </div>
+        <button id="icsBtn" class="btn-ghost w-full"><svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-i18n="ics">Download .ics (all 3)</span></button>
+      </section>
+
+      <!-- Music settings -->
+      <section class="card p-4 mt-4 space-y-2">
+        <div class="flex items-center justify-between">
+          <h2 class="label" data-i18n="music">Devotional drone</h2>
+          <input id="volIn" type="range" min="0" max="100" class="w-32 accent-amber-500" aria-label="Volume">
+        </div>
+        <label class="block space-y-1">
+          <span class="text-xs text-slate-500 dark:text-slate-400" data-i18n="customAudio">Custom audio URL</span>
+          <div class="flex gap-2">
+            <input id="audioUrl" type="url" placeholder="https://…/track.mp3" class="field">
+            <button id="audioSave" class="btn-ghost shrink-0" data-i18n="save">Save</button>
+          </div>
+        </label>
+      </section>
+
+      <!-- Reminders (Android app only) -->
+      <section id="remindCard" class="card p-4 mt-4 hidden">
+        <div class="flex items-center justify-between gap-3">
+          <div class="min-w-0">
+            <h2 class="label" data-i18n="reminders">Reminders</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="remindNote">Notification at the start of each Sandhya window, next 30 days</p>
+          </div>
+          <button id="remindBtn" role="switch" aria-label="Reminders" class="relative w-12 h-7 rounded-full transition shrink-0 bg-stone-300 dark:bg-slate-700">
+            <span class="absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition"></span>
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="mt-8 text-xs leading-relaxed text-slate-500 dark:text-slate-400 space-y-2 px-1">
+    <p><b data-i18n="method">Method</b>: Sun by Meeus low-precision solar theory with NOAA sunrise model (upper limb, standard refraction, h = −0.833°); Moon by Meeus ELP-2000 truncated series (60 longitude terms); Drik-ganita with Lahiri (Chitrapaksha) ayanamsa; Chandramana amanta months with adhika/nija detection and Prabhavadi samvatsara changing at Ugadi (Kannada, Telugu, Hindi, English); Sauramana solar months, solar ritus and samvatsara changing at Mesha Sankranti (Tamil default; switchable). Tamil script follows printed sankalpa convention (aspirates written with the base letter). Panchanga for each Sandhya is taken at its anchor: sunrise, solar noon and sunset. Calendar: tithi and nakshatra at sunrise; Pradosham when Trayodashi prevails at sunset; Tamil date by the sunset rule (a sankranti before sunset makes that day the 1st). Rahu kalam, Yamagandam and Gulika are the weekday's fixed eighth of daylight.</p>
+    <p>Windows: Prātaḥ = 3 ghaṭikas (72 min) before sunrise to sunrise, Aruṇodaya at 96 min before sunrise; Mādhyāhnika = solar noon ± 1 ghaṭika (24 min); Sāyaṃ = 1 ghaṭika before sunset to 2 ghaṭikas after. Printed almanacs (e.g. Ontikoppal) may differ by a minute or two owing to their own computation conventions.</p>
+  </footer>
+</div>
+
+<!-- Sticky quick copy -->
+<div class="fixed inset-x-0 bottom-0 z-40 px-3 pb-[max(.75rem,env(safe-area-inset-bottom))] pt-2 pointer-events-none">
+  <div class="max-w-5xl mx-auto pointer-events-auto rounded-2xl border border-amber-200/70 dark:border-slate-700 bg-white/95 dark:bg-slate-900/95 backdrop-blur shadow-xl shadow-slate-900/10 px-3 py-2.5 flex items-center gap-3">
+    <div class="w-9 h-9 rounded-xl bg-amber-100 dark:bg-amber-500/15 text-amber-600 dark:text-amber-300 grid place-items-center shrink-0" id="qIcon"></div>
+    <div class="flex-1 min-w-0">
+      <p class="label truncate" id="qLabel">Today's Quick Copy</p>
+      <p id="qLine" class="text-sm font-medium truncate"></p>
+    </div>
+    <button id="qCopy" class="btn-primary shrink-0"><span data-i18n="copy">Copy</span></button>
+  </div>
+</div>
+
+<div id="toast" class="fixed left-1/2 -translate-x-1/2 bottom-24 z-50 hidden rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2 text-sm shadow-lg"></div>
+
+<script>
+/*ENGINE-START*/
+/* ======================= ASTRONOMY ENGINE ======================= */
+const D2R = Math.PI/180, R2D = 180/Math.PI, DAY = 864e5, MIN = 6e4, HOUR = 36e5;
+const sind = x => Math.sin(x*D2R), cosd = x => Math.cos(x*D2R);
+const norm360 = x => ((x % 360) + 360) % 360;
+const norm180 = x => { x = norm360(x); return x > 180 ? x - 360 : x; };
+const msToJD = ms => ms/DAY + 2440587.5;
+
+// Delta T (TT - UT) in seconds; NASA polynomial for 2005..2050, long-term parabola otherwise
+function deltaTsec(jd){
+  const y = 2000 + (jd - 2451545)/365.25;
+  if (y >= 2005 && y <= 2050){ const t = y - 2000; return 62.92 + 0.32217*t + 0.005589*t*t; }
+  const u = (y - 1820)/100; return -20 + 32*u*u;
+}
+const jdeT = jd => (jd + deltaTsec(jd)/86400 - 2451545)/36525;  // Julian centuries TT
+
+// Apparent Sun (Meeus ch. 25, low precision ~0.01 deg) + declination + equation of time
+function sunCoords(jd){
+  const T = jdeT(jd);
+  const L0 = norm360(280.46646 + 36000.76983*T + 0.0003032*T*T);
+  const M = 357.52911 + 35999.05029*T - 0.0001537*T*T;
+  const e = 0.016708634 - 0.000042037*T - 0.0000001267*T*T;
+  const C = (1.914602 - 0.004817*T - 0.000014*T*T)*sind(M) + (0.019993 - 0.000101*T)*sind(2*M) + 0.000289*sind(3*M);
+  const omega = 125.04 - 1934.136*T;
+  const lambda = norm360(L0 + C - 0.00569 - 0.00478*sind(omega));
+  const eps0 = 23 + (26 + (21.448 - 46.815*T - 0.00059*T*T + 0.001813*T*T*T)/60)/60;
+  const eps = eps0 + 0.00256*cosd(omega);
+  const dec = Math.asin(sind(eps)*sind(lambda))*R2D;
+  const y = Math.tan(eps*D2R/2)**2;
+  const eot = 4*R2D*(y*sind(2*L0) - 2*e*sind(M) + 4*e*y*sind(M)*cosd(2*L0) - 0.5*y*y*sind(4*L0) - 1.25*e*e*sind(2*M)); // minutes
+  return { lambda, dec, eot };
+}
+
+// Moon longitude: Meeus ch. 47 (ELP-2000/82 truncated), terms [D, M, M', F, coeff 1e-6 deg]
+const MOON_TERMS = [
+ [0,0,1,0,6288774],[2,0,-1,0,1274027],[2,0,0,0,658314],[0,0,2,0,213618],[0,1,0,0,-185116],
+ [0,0,0,2,-114332],[2,0,-2,0,58793],[2,-1,-1,0,57066],[2,0,1,0,53322],[2,-1,0,0,45758],
+ [0,1,-1,0,-40923],[1,0,0,0,-34720],[0,1,1,0,-30383],[2,0,0,-2,15327],[0,0,1,2,-12528],
+ [0,0,1,-2,10980],[4,0,-1,0,10675],[0,0,3,0,10034],[4,0,-2,0,8548],[2,1,-1,0,-7888],
+ [2,1,0,0,-6766],[1,0,-1,0,-5163],[1,1,0,0,4987],[2,-1,1,0,4036],[2,0,2,0,3994],
+ [4,0,0,0,3861],[2,0,-3,0,3665],[0,1,-2,0,-2689],[2,0,-1,2,-2602],[2,-1,-2,0,2390],
+ [1,0,1,0,-2348],[2,-2,0,0,2236],[0,1,2,0,-2120],[0,2,0,0,-2069],[2,-2,-1,0,2048],
+ [2,0,1,-2,-1773],[2,0,0,2,-1595],[4,-1,-1,0,1215],[0,0,2,2,-1110],[3,0,-1,0,-892],
+ [2,1,1,0,-810],[4,-1,-2,0,759],[0,2,-1,0,-713],[2,2,-1,0,-700],[2,1,-2,0,691],
+ [2,-1,0,-2,596],[4,0,1,0,549],[0,0,4,0,537],[4,-1,0,0,520],[1,0,-2,0,-487],
+ [2,1,0,-2,-399],[0,0,2,-2,-381],[1,1,1,0,351],[3,0,-2,0,-340],[4,0,-3,0,330],
+ [2,-1,2,0,327],[0,2,1,0,-323],[1,1,-1,0,299],[2,0,3,0,294]
+];
+function moonLongitude(jd){
+  const T = jdeT(jd), T2 = T*T, T3 = T2*T, T4 = T3*T;
+  const Lp = 218.3164477 + 481267.88123421*T - 0.0015786*T2 + T3/538841 - T4/65194000;
+  const D  = 297.8501921 + 445267.1114034*T - 0.0018819*T2 + T3/545868 - T4/113065000;
+  const M  = 357.5291092 + 35999.0502909*T - 0.0001536*T2 + T3/24490000;
+  const Mp = 134.9633964 + 477198.8675055*T + 0.0087414*T2 + T3/69699 - T4/14712000;
+  const F  = 93.2720950 + 483202.0175233*T - 0.0036539*T2 - T3/3526000 + T4/863310000;
+  const E = 1 - 0.002516*T - 0.0000074*T2;
+  let s = 0;
+  for (const [d,m,mp,f,c] of MOON_TERMS){
+    const k = Math.abs(m) === 1 ? E : (Math.abs(m) === 2 ? E*E : 1);
+    s += c*k*sind(norm360(d*D + m*M + mp*Mp + f*F));
+  }
+  const A1 = 119.75 + 131.849*T, A2 = 53.09 + 479264.290*T;
+  s += 3958*sind(A1) + 1962*sind(Lp - F) + 318*sind(A2);
+  const omega = 125.04452 - 1934.136261*T;
+  return norm360(Lp + s/1e6 - 0.00478*sind(omega)); // apparent (nutation in longitude)
+}
+
+// Lahiri (Chitrapaksha) ayanamsa, anchored to its 1956 definition, general precession thereafter
+function ayanamsa(jd){ const T = jdeT(jd); return 23.857092 + (5028.796195*T + 1.1054348*T*T)/3600; }
+
+/* ---- Sun events (rise, set, transit) for absolute UTC ms ---- */
+function sunEvent(baseMs, lat, lon, alt, kind){
+  let t = baseMs;
+  for (let i = 0; i < 6; i++){
+    const s = sunCoords(msToJD(t));
+    const utMin = ((t/MIN) % 1440 + 1440) % 1440;
+    const solarMin = ((utMin + 4*lon + s.eot) % 1440 + 1440) % 1440;
+    let target = 720;
+    if (kind !== 'noon'){
+      const cosH = (sind(alt) - sind(lat)*sind(s.dec)) / (cosd(lat)*cosd(s.dec));
+      if (cosH < -1 || cosH > 1) return null;
+      const H = Math.acos(cosH)*R2D;
+      target = kind === 'rise' ? 720 - 4*H : 720 + 4*H;
+    }
+    let d = target - solarMin; d = ((d + 720) % 1440 + 1440) % 1440 - 720;
+    t += d*MIN;
+    if (Math.abs(d) < 0.01) break;
+  }
+  return t;
+}
+
+/* ---- Panchanga root-finding ---- */
+const NAK = 360/27;
+const fElong  = ms => { const jd = msToJD(ms); return norm360(moonLongitude(jd) - sunCoords(jd).lambda); };
+const fMoonSid= ms => { const jd = msToJD(ms); return norm360(moonLongitude(jd) - ayanamsa(jd)); };
+const fSunSid = ms => { const jd = msToJD(ms); return norm360(sunCoords(jd).lambda - ayanamsa(jd)); };
+const fYoga   = ms => { const jd = msToJD(ms); return norm360(moonLongitude(jd) + sunCoords(jd).lambda - 2*ayanamsa(jd)); };
+
+function refine(fn, target, t){
+  for (let i = 0; i < 30; i++){
+    const diff = norm180(target - fn(t));
+    if (Math.abs(diff) < 1e-6) break;
+    const h = 10*MIN;
+    const rate = norm180(fn(t + h) - fn(t)) / h;
+    t += diff / rate;
+  }
+  return t;
+}
+const solveForward  = (fn, target, t0, degPerDay) => refine(fn, target, t0 + norm360(target - fn(t0))/degPerDay*DAY);
+const solveBackward = (fn, target, t0, degPerDay) => refine(fn, target, t0 - norm360(fn(t0) - target)/degPerDay*DAY);
+
+/* ---- Time zone helpers (IANA) ---- */
+const _dtf = {};
+function dtfFor(tz){
+  return _dtf[tz] || (_dtf[tz] = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', weekday: 'short' }));
+}
+const WD = { Sun:0, Mon:1, Tue:2, Wed:3, Thu:4, Fri:5, Sat:6 };
+function localParts(ms, tz){
+  const p = {}; for (const x of dtfFor(tz).formatToParts(new Date(ms))) p[x.type] = x.value;
+  return { y:+p.year, m:+p.month, d:+p.day, h:(+p.hour)%24, mi:+p.minute, s:+p.second, wd: WD[p.weekday] };
+}
+function tzOffsetMs(tz, ms){
+  const p = localParts(ms, tz);
+  return Date.UTC(p.y, p.m-1, p.d, p.h, p.mi, p.s) - Math.floor(ms/1000)*1000;
+}
+function zonedToUtc(y, m, d, h, mi, tz){
+  const guess = Date.UTC(y, m-1, d, h, mi);
+  let t = guess - tzOffsetMs(tz, guess);
+  const t2 = guess - tzOffsetMs(tz, t);
+  return t2 !== t ? t2 : t;
+}
+
+/* ---- Panchanga at an instant ---- */
+function panchangaAt(ms, tz){
+  const jd = msToJD(ms);
+  const sunT = sunCoords(jd).lambda, moonT = moonLongitude(jd), ay = ayanamsa(jd);
+  const sunS = norm360(sunT - ay), moonS = norm360(moonT - ay), el = norm360(moonT - sunT);
+  const ti = Math.floor(el/12), ni = Math.floor(moonS/NAK), yi = Math.floor(norm360(sunS + moonS)/NAK), ki = Math.floor(el/6);
+  const tithiEnd  = solveForward(fElong, ((ti+1)*12) % 360, ms, 12.19);
+  const moonRashi = Math.floor(moonS/30);
+  const moonRashiEnd = solveForward(fMoonSid, ((moonRashi+1)*30) % 360, ms, 13.18);
+  const nakEnd    = solveForward(fMoonSid, ((ni+1)*NAK) % 360, ms, 13.18);
+  const yogaEnd   = solveForward(fYoga, ((yi+1)*NAK) % 360, ms, 13.97);
+  const karanaEnd = solveForward(fElong, ((ki+1)*6) % 360, ms, 12.19);
+  // Chandramana amanta month from the solar rashi at the bounding new moons
+  const pn = solveBackward(fElong, 0, ms, 12.19);
+  const nn = solveForward(fElong, 0, ms + MIN, 12.19);
+  const r1 = Math.floor(fSunSid(pn)/30), r2 = Math.floor(fSunSid(nn)/30);
+  const adhika = r1 === r2;
+  let nija = false;
+  if (!adhika){ const ppn = solveBackward(fElong, 0, pn - 2*DAY, 12.19); nija = Math.floor(fSunSid(ppn)/30) === r1; }
+  const masaIdx = (r1 + 1) % 12;
+  const lp = localParts(ms, tz);
+  const lunarYear = (lp.m <= 4 && masaIdx >= 8) ? lp.y - 1 : lp.y;  // year changes at Ugadi
+  const samIdx = ((lunarYear - 1987) % 60 + 60) % 60;                 // 1987-88 = Prabhava
+  // Sauramana (Tamil): month = Sun's sidereal rashi; year changes at Mesha Sankranti
+  const sunRashi = Math.floor(sunS/30);
+  const sauraYear = (lp.m <= 4 && sunRashi >= 8) ? lp.y - 1 : lp.y;
+  return {
+    moonRashi, moonRashiEnd, chandrashtama: (moonRashi + 5) % 12,  // Moon in the 8th from this janma rashi
+    sunRashi, sauraSamIdx: ((sauraYear - 1987) % 60 + 60) % 60, sauraShaka: sauraYear - 78, sauraRitu: Math.floor(sunRashi/2),
+    ms, sunS, moonS, el,
+    tithiIdx: ti, tithiEnd, nakIdx: ni, nakEnd, yogaIdx: yi, yogaEnd, karanaIdx: ki, karanaEnd,
+    paksha: ti < 15 ? 0 : 1,
+    masaIdx, adhika, nija, newMoonPrev: pn, newMoonNext: nn,
+    ayana: (sunS >= 270 || sunS < 90) ? 0 : 1,
+    ritu: Math.floor(masaIdx/2),
+    samIdx, shaka: lunarYear - 78
+  };
+}
+
+/* ---- Rahu kalam, Yamagandam, Gulika: daylight split into 8 parts, part fixed by weekday (0 = Sunday) ---- */
+function kalams(rise, set, weekday){
+  const part = (set - rise)/8, at = k => ({ start: rise + (k-1)*part, end: rise + k*part });
+  return { rahu: at([8,2,7,5,6,4,3][weekday]), yama: at([5,4,3,2,1,7,6][weekday]), gulika: at([7,6,5,4,3,2,1][weekday]) };
+}
+
+/* ---- Tamil (Sauramana) date: month = Sun's sidereal rashi at local sunset;
+        a sankranti before sunset makes that civil day the 1st, otherwise the next day ---- */
+function sauraDate(y, m, d, lat, lon, tz, setMs){
+  const sunsetOf = (yy, mm, dd) => { const b = zonedToUtc(yy, mm, dd, 12, 0, tz); const s = sunEvent(b, lat, lon, -0.8333, 'set'); return s == null ? b + 6*HOUR : s; };
+  const set = setMs != null ? setMs : sunsetOf(y, m, d);
+  const rashi = Math.floor(fSunSid(set)/30);
+  const T = solveBackward(fSunSid, rashi*30, set, 1);           // sankranti moment
+  const lp = localParts(T, tz);
+  let day1 = Date.UTC(lp.y, lp.m-1, lp.d);
+  if (T > sunsetOf(lp.y, lp.m, lp.d)) day1 += DAY;
+  return { rashi, day: Math.round((Date.UTC(y, m-1, d) - day1)/DAY) + 1, sankranti: T };
+}
+
+/* ---- One calendar cell: panchanga at sunrise, tithi at sunset (Pradosham), Tamil date ---- */
+function calendarDay(y, m, d, lat, lon, tz){
+  const base = zonedToUtc(y, m, d, 12, 0, tz);
+  let rise = sunEvent(base, lat, lon, -0.8333, 'rise'), set = sunEvent(base, lat, lon, -0.8333, 'set');
+  if (rise == null || set == null){ rise = base - 6*HOUR; set = base + 6*HOUR; }
+  return { y, m, d, rise, set, p: panchangaAt(rise, tz), tithiSet: Math.floor(fElong(set)/12), saura: sauraDate(y, m, d, lat, lon, tz, set) };
+}
+// Festival markers; a tithi that begins and ends between two sunrises (kshaya) is counted on that day
+function dayMarks(day, next){
+  const ti = day.p.tithiIdx, touched = [ti];
+  if (next && next.p.tithiIdx === (ti + 2) % 30) touched.push((ti + 1) % 30);
+  const has = k => touched.includes(k);
+  return {
+    amavasya: has(29), purnima: has(14), ekadashi: has(10) || has(25),
+    pradosha: day.tithiSet === 12 || day.tithiSet === 27,
+    sankranti: day.saura.day === 1
+  };
+}
+/*ENGINE-END*/
+
+/* ======================= NAMES (Devanagari master) ======================= */
+const N = {
+  samvatsara: ['प्रभव','विभव','शुक्ल','प्रमोदूत','प्रजोत्पत्ति','आङ्गीरस','श्रीमुख','भाव','युव','धातृ',
+    'ईश्वर','बहुधान्य','प्रमाथि','विक्रम','वृष','चित्रभानु','स्वभानु','तारण','पार्थिव','व्यय',
+    'सर्वजित्','सर्वधारि','विरोधि','विकृति','खर','नन्दन','विजय','जय','मन्मथ','दुर्मुखि',
+    'हेविलम्बि','विलम्बि','विकारि','शार्वरि','प्लव','शुभकृत्','शोभकृत्','क्रोधि','विश्वावसु','पराभव',
+    'प्लवङ्ग','कीलक','सौम्य','साधारण','विरोधिकृत्','परिधावि','प्रमादीच','आनन्द','राक्षस','नल',
+    'पिङ्गल','कालयुक्ति','सिद्धार्थि','रौद्रि','दुर्मति','दुन्दुभि','रुधिरोद्गारि','रक्ताक्षि','क्रोधन','अक्षय'],
+  ayana: ['उत्तरायण','दक्षिणायन'],
+  ritu: ['वसन्त','ग्रीष्म','वर्ष','शरद्','हेमन्त','शिशिर'],
+  masa: ['चैत्र','वैशाख','ज्येष्ठ','आषाढ','श्रावण','भाद्रपद','आश्वयुज','कार्तिक','मार्गशिर','पौष','माघ','फाल्गुन'],
+  paksha: ['शुक्ल','कृष्ण'],
+  tithi: ['प्रथमा','द्वितीया','तृतीया','चतुर्थी','पञ्चमी','षष्ठी','सप्तमी','अष्टमी','नवमी','दशमी','एकादशी','द्वादशी','त्रयोदशी','चतुर्दशी'],
+  purnima: 'पूर्णिमा', amavasya: 'अमावास्या',
+  vasara: ['भानु','सोम','भौम','सौम्य','गुरु','भृगु','स्थिर'],
+  weekdayEn: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+  nakshatra: ['अश्विनी','भरणी','कृत्तिका','रोहिणी','मृगशिरा','आर्द्रा','पुनर्वसु','पुष्य','आश्लेषा','मघा',
+    'पूर्वफाल्गुनी','उत्तरफाल्गुनी','हस्त','चित्रा','स्वाती','विशाखा','अनुराधा','ज्येष्ठा','मूला','पूर्वाषाढा',
+    'उत्तराषाढा','श्रवण','धनिष्ठा','शतभिषा','पूर्वाभाद्रपदा','उत्तराभाद्रपदा','रेवती'],
+  yoga: ['विष्कम्भ','प्रीति','आयुष्मान्','सौभाग्य','शोभन','अतिगण्ड','सुकर्मा','धृति','शूल','गण्ड',
+    'वृद्धि','ध्रुव','व्याघात','हर्षण','वज्र','सिद्धि','व्यतीपात','वरीयान्','परिघ','शिव',
+    'सिद्ध','साध्य','शुभ','शुक्ल','ब्रह्म','ऐन्द्र','वैधृति'],
+  karanaMov: ['बव','बालव','कौलव','तैतिल','गरज','वणिज','विष्टि'],
+  adhika: 'अधिक', nija: 'निज',
+  rashi: ['मेष','वृषभ','मिथुन','कर्कटक','सिंह','कन्या','तुला','वृश्चिक','धनुर्','मकर','कुम्भ','मीन'],
+  tamilMonthTa: ['சித்திரை','வைகாசி','ஆனி','ஆடி','ஆவணி','புரட்டாசி','ஐப்பசி','கார்த்திகை','மார்கழி','தை','மாசி','பங்குனி'],
+  tamilMonthEn: ['Chithirai','Vaikasi','Aani','Aadi','Aavani','Purattasi','Aippasi','Karthikai','Margazhi','Thai','Maasi','Panguni'],
+  chandramana: 'चान्द्रमान', sauramana: 'सौरमान',
+  rashiDisp: ['मेष','वृषभ','मिथुन','कर्कटक','सिंह','कन्या','तुला','वृश्चिक','धनुस्','मकर','कुम्भ','मीन'],
+  rashiTa: ['மேஷம்','ரிஷபம்','மிதுனம்','கடகம்','சிம்மம்','கன்னி','துலாம்','விருச்சிகம்','தனுசு','மகரம்','கும்பம்','மீனம்'],
+  rashiTe: ['మేషం','వృషభం','మిథునం','కర్కాటకం','సింహం','కన్య','తుల','వృశ్చికం','ధనుస్సు','మకరం','కుంభం','మీనం'],
+  fest: { amavasya: 'अमावास्या', purnima: 'पूर्णिमा', ekadashi: 'एकादशी', pradosha: 'प्रदोष', sankranti: 'सङ्क्रान्ति' },
+  session: { pratah: 'प्रातःसन्ध्या', madhya: 'माध्याह्निकम्', sayam: 'सायंसन्ध्या' },
+  sessionEnd: { pratah: 'प्रातःसन्ध्यामुपासिष्ये', madhya: 'माध्याह्निकं करिष्ये', sayam: 'सायंसन्ध्यामुपासिष्ये' }
+};
+const tithiName = i => { const k = i % 15; return k === 14 ? (i < 15 ? N.purnima : N.amavasya) : N.tithi[k]; };
+const karanaName = k => k === 0 ? 'किंस्तुघ्न' : k === 57 ? 'शकुनि' : k === 58 ? 'चतुष्पाद' : k === 59 ? 'नाग' : N.karanaMov[(k-1) % 7];
+const masaName = p => (p.adhika ? N.adhika + ' ' : p.nija ? N.nija + ' ' : '') + N.masa[p.masaIdx];
+
+/* ======================= SCRIPT CONVERSION ======================= */
+// Devanagari -> Kannada (parallel Unicode blocks, offset 0x380)
+function toKn(s){
+  let o = '';
+  for (const ch of s){ const c = ch.codePointAt(0); o += (c >= 0x0901 && c <= 0x0963) ? String.fromCodePoint(c + 0x380) : ch; }
+  return o;
+}
+// Devanagari -> Telugu (parallel Unicode blocks, offset 0x300)
+function toTe(s){
+  let o = '';
+  for (const ch of s){ const c = ch.codePointAt(0); o += (c >= 0x0901 && c <= 0x0963) ? String.fromCodePoint(c + 0x300) : ch; }
+  return o;
+}
+// Devanagari -> Tamil, following the convention of printed Tamil sankalpa books:
+// aspirates fold into the base letter, Grantha letters for ja/sha/sa/ha, anusvara as ம், visarga as ':'
+const TA_CONS = {'क':'க','ख':'க','ग':'க','घ':'க','ङ':'ங','च':'ச','छ':'ச','ज':'ஜ','झ':'ஜ','ञ':'ஞ','ट':'ட','ठ':'ட','ड':'ட','ढ':'ட','ण':'ண',
+  'त':'த','थ':'த','द':'த','ध':'த','न':'ந','प':'ப','फ':'ப','ब':'ப','भ':'ப','म':'ம','य':'ய','र':'ர','ल':'ல','ळ':'ள','व':'வ','श':'ச','ष':'ஷ','स':'ஸ','ह':'ஹ'};
+const TA_VOW = {'अ':'அ','आ':'ஆ','इ':'இ','ई':'ஈ','उ':'உ','ऊ':'ஊ','ऋ':'ரு','ॠ':'ரூ','ए':'ஏ','ऐ':'ஐ','ओ':'ஓ','औ':'ஔ'};
+const TA_SIGN = {'ा':'ா','ि':'ி','ी':'ீ','ु':'ு','ू':'ூ','ृ':'்ரு','ॄ':'்ரூ','े':'ே','ै':'ை','ो':'ோ','ौ':'ௌ'};
+const TA_STOPS = 'कखगघचछटठडढतथदधपफबभ';
+const isDevLetter = c => !!c && c.codePointAt(0) >= 0x0900 && c.codePointAt(0) <= 0x097F;
+function toTa(s){
+  const ch = Array.from(s); let o = '';
+  for (let i = 0; i < ch.length; i++){
+    const c = ch[i], n = ch[i+1];
+    if (TA_CONS[c]){
+      let base = TA_CONS[c];
+      const wordStart = !isDevLetter(ch[i-1]);
+      // ந at word start or in ந்த; ன elsewhere (Tamil spelling rule)
+      if (c === 'न' && !wordStart && !(n === '्' && 'तथदध'.includes(ch[i+2] || ''))) base = 'ன';
+      // श्री -> ஸ்ரீ
+      if (c === 'श' && n === '्' && ch[i+2] === 'र') base = 'ஸ';
+      // stop consonant after ர் is doubled: मुहूर्ते -> முஹூர்த்தே
+      if (o.endsWith('ர்') && TA_STOPS.includes(c) && n !== '्') base = base + '்' + base;
+      o += base;
+      if (n === '्'){ o += '்'; i++; }
+      else if (TA_SIGN[n]){ o += TA_SIGN[n]; i++; }
+    } else if (TA_VOW[c]) o += TA_VOW[c];
+    else if (c === 'ं' || c === 'ँ') o += 'ம்';
+    else if (c === 'ः') o += ':';
+    else if (c === 'ऽ') {}
+    else o += c;
+  }
+  return o;
+}
+const T_CONS = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ',
+  'त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','ळ':'ḷ','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h'};
+const T_VOW = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ए':'e','ऐ':'ai','ओ':'o','औ':'au'};
+const T_SIGN = {'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','े':'e','ै':'ai','ो':'o','ौ':'au'};
+const T_OTH = {'ं':'ṃ','ः':'ḥ','ँ':'m̐','ऽ':"'",'।':'|','॥':'||'};
+const SIMPLE = {'ā':'a','ī':'i','ū':'u','ṛ':'ri','ṝ':'ri','ṅ':'n','ñ':'n','ṭ':'t','ṭh':'th','ḍ':'d','ḍh':'dh','ṇ':'n','ḷ':'l','ś':'sh','ṣ':'sh','ṃ':'m','ḥ':'h','m̐':'m','c':'ch','ch':'chh'};
+function translit(s, mode){
+  const S = x => mode === 'simple' ? (SIMPLE[x] !== undefined ? SIMPLE[x] : x) : x;
+  const chars = Array.from(s); let o = '';
+  for (let i = 0; i < chars.length; i++){
+    const c = chars[i];
+    if (T_CONS[c]){
+      o += S(T_CONS[c]);
+      const n = chars[i+1];
+      if (n === '्'){ i++; }
+      else if (T_SIGN[n]){ o += S(T_SIGN[n]); i++; }
+      else o += 'a';
+    } else if (T_VOW[c]) o += S(T_VOW[c]);
+    else if (T_OTH[c]) o += S(T_OTH[c]);
+    else o += c;
+  }
+  return o;
+}
+const titleCase = s => s.replace(/(^|[\s(])(\p{L})/gu, (m, a, b) => a + b.toUpperCase());
+
+/* ======================= I18N ======================= */
+const I18N = {
+  en: { title:'Sandhyā Sankalpa', sub:'Daily Panchānga · Sandhyāvandanam timings', locate:'Locate', today:'Today', advanced:'Custom coordinates',
+    lat:'Latitude', lon:'Longitude', tz:'Time zone', apply:'Apply', sunPath:'Sun path', windows:'Sandhyā windows',
+    pratah:'Prātaḥ Sandhyā', madhya:'Mādhyāhnikam', sayam:'Sāyaṃ Sandhyā',
+    pratahSub:'Dawn to sunrise', madhyaSub:'Solar noon ± 24 min', sayamSub:'Before sunset to dusk',
+    sunrise:'Sunrise', noon:'Solar noon', sunset:'Sunset', arunodaya:'Aruṇodaya', dawn:'Civil dawn', dusk:'Civil dusk', daylength:'Day length',
+    addCal:'Google Calendar', useSankalpa:'Sankalpa', now:'Now', done:'Completed', panchanga:'Panchānga',
+    samvatsara:'Samvatsara', ayana:'Ayana', ritu:'Ṛtu', masa:'Māsa', amanta:'amānta', saura:'saurāmāna', paksha:'Pakṣa', tithi:'Tithi', vasara:'Vāsara', nakshatra:'Nakṣatra', yoga:'Yoga', karana:'Karaṇa',
+    then:'then', shaka:'Śaka', sankalpa:'Saṅkalpa', copy:'Copy', copied:'Copied to clipboard', share:'Share', ics:'Download .ics (all 3)',
+    quick:'Quick Copy', todayQuick:"Today's Quick Copy", music:'Devotional drone', tapStart:'Tap anywhere to start the devotional drone',
+    customAudio:'Custom audio URL (a track you have rights to)', save:'Save', method:'Method', polar:'The Sun does not rise or set here on this date.',
+    locFail:'Location unavailable; using Bengaluru.', myLoc:'My location', saved:'Saved', audioErr:'Could not play that audio URL; using the drone.',
+    reminders:'Reminders', remindNote:'Notification at the start of each Sandhyā window, next 30 days', remindOn:'Reminders set for 30 days', remindOff:'Reminders off',
+    rahu:'Rāhu kālam', yama:'Yamagaṇḍam', gulika:'Gulika (Kuḷigai)', moonRashi:"Moon's rāśi", chandrashtama:'Chandrāṣṭama for', sauraDate:'Solar date', calendar:'Calendar', pakshaShort:['Śu','Kṛ'],
+    until: x => `until ${x}`, inX: x => `in ${x}`, at: (s, t) => `at ${s} · ${t}` },
+  kn: { title:'ಸಂಧ್ಯಾ ಸಂಕಲ್ಪ', sub:'ದೈನಿಕ ಪಂಚಾಂಗ · ಸಂಧ್ಯಾವಂದನೆ ಸಮಯ', locate:'ಸ್ಥಳ', today:'ಇಂದು', advanced:'ಸ್ವಂತ ನಿರ್ದೇಶಾಂಕಗಳು',
+    lat:'ಅಕ್ಷಾಂಶ', lon:'ರೇಖಾಂಶ', tz:'ಸಮಯ ವಲಯ', apply:'ಅನ್ವಯಿಸು', sunPath:'ಸೂರ್ಯಪಥ', windows:'ಸಂಧ್ಯಾ ಕಾಲಗಳು',
+    pratah:'ಪ್ರಾತಃಸಂಧ್ಯಾ', madhya:'ಮಾಧ್ಯಾಹ್ನಿಕ', sayam:'ಸಾಯಂಸಂಧ್ಯಾ',
+    pratahSub:'ಉಷಃಕಾಲದಿಂದ ಸೂರ್ಯೋದಯದವರೆಗೆ', madhyaSub:'ಮಧ್ಯಾಹ್ನ ± 24 ನಿಮಿಷ', sayamSub:'ಸೂರ್ಯಾಸ್ತದ ಮೊದಲು ಗೋಧೂಳಿಯವರೆಗೆ',
+    sunrise:'ಸೂರ್ಯೋದಯ', noon:'ಮಧ್ಯಾಹ್ನ', sunset:'ಸೂರ್ಯಾಸ್ತ', arunodaya:'ಅರುಣೋದಯ', dawn:'ಉಷಃಕಾಲ', dusk:'ಗೋಧೂಳಿ', daylength:'ದಿನಮಾನ',
+    addCal:'ಗೂಗಲ್ ಕ್ಯಾಲೆಂಡರ್', useSankalpa:'ಸಂಕಲ್ಪ', now:'ಈಗ', done:'ಮುಗಿದಿದೆ', panchanga:'ಪಂಚಾಂಗ',
+    samvatsara:'ಸಂವತ್ಸರ', ayana:'ಅಯನ', ritu:'ಋತು', masa:'ಮಾಸ', amanta:'ಅಮಾಂತ', saura:'ಸೌರಮಾನ', paksha:'ಪಕ್ಷ', tithi:'ತಿಥಿ', vasara:'ವಾಸರ', nakshatra:'ನಕ್ಷತ್ರ', yoga:'ಯೋಗ', karana:'ಕರಣ',
+    then:'ನಂತರ', shaka:'ಶಕ', sankalpa:'ಮುಹೂರ್ತ ಸಂಕಲ್ಪಂ', copy:'ನಕಲಿಸು', copied:'ನಕಲಿಸಲಾಗಿದೆ', share:'ಹಂಚು', ics:'.ics ಡೌನ್‌ಲೋಡ್ (ಮೂರೂ)',
+    quick:'ತ್ವರಿತ ನಕಲು', todayQuick:'ಇಂದಿನ ತ್ವರಿತ ನಕಲು', music:'ಭಕ್ತಿ ನಾದ', tapStart:'ಭಕ್ತಿ ನಾದ ಆರಂಭಿಸಲು ಎಲ್ಲಿಯಾದರೂ ಸ್ಪರ್ಶಿಸಿ',
+    customAudio:'ಸ್ವಂತ ಆಡಿಯೋ URL', save:'ಉಳಿಸು', method:'ಗಣನ ವಿಧಾನ', polar:'ಈ ದಿನ ಇಲ್ಲಿ ಸೂರ್ಯೋದಯ ಅಥವಾ ಸೂರ್ಯಾಸ್ತ ಇಲ್ಲ.',
+    locFail:'ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ; ಬೆಂಗಳೂರು ಬಳಸಲಾಗಿದೆ.', myLoc:'ನನ್ನ ಸ್ಥಳ', saved:'ಉಳಿಸಲಾಗಿದೆ', audioErr:'ಆಡಿಯೋ ಪ್ಲೇ ಆಗಲಿಲ್ಲ; ನಾದ ಬಳಸಲಾಗಿದೆ.',
+    reminders:'ಜ್ಞಾಪನೆಗಳು', remindNote:'ಪ್ರತಿ ಸಂಧ್ಯಾ ಕಾಲದ ಆರಂಭದಲ್ಲಿ ಸೂಚನೆ, ಮುಂದಿನ 30 ದಿನಗಳು', remindOn:'30 ದಿನಗಳ ಜ್ಞಾಪನೆಗಳು ಸಿದ್ಧ', remindOff:'ಜ್ಞಾಪನೆಗಳು ಆಫ್',
+    rahu:'ರಾಹು ಕಾಲ', yama:'ಯಮಗಂಡ ಕಾಲ', gulika:'ಗುಳಿಕ ಕಾಲ', moonRashi:'ಚಂದ್ರ ರಾಶಿ', chandrashtama:'ಚಂದ್ರಾಷ್ಟಮ', sauraDate:'ಸೌರ ದಿನಾಂಕ', calendar:'ದಿನದರ್ಶಿಕೆ', pakshaShort:['ಶು','ಬ'],
+    until: x => `${x} ವರೆಗೆ`, inX: x => `ಇನ್ನು ${x}`, at: (s, t) => `${s} · ${t}` },
+  hi: { title:'सन्ध्या सङ्कल्प', sub:'दैनिक पञ्चाङ्ग · सन्ध्यावन्दन समय', locate:'स्थान', today:'आज', advanced:'स्वयं निर्देशांक',
+    lat:'अक्षांश', lon:'देशांतर', tz:'समय क्षेत्र', apply:'लागू करें', sunPath:'सूर्य पथ', windows:'सन्ध्या काल',
+    pratah:'प्रातःसन्ध्या', madhya:'माध्याह्निक', sayam:'सायंसन्ध्या',
+    pratahSub:'उषःकाल से सूर्योदय तक', madhyaSub:'मध्याह्न ± 24 मिनट', sayamSub:'सूर्यास्त से पूर्व गोधूलि तक',
+    sunrise:'सूर्योदय', noon:'मध्याह्न', sunset:'सूर्यास्त', arunodaya:'अरुणोदय', dawn:'उषःकाल', dusk:'गोधूलि', daylength:'दिनमान',
+    addCal:'गूगल कैलेंडर', useSankalpa:'सङ्कल्प', now:'अभी', done:'सम्पन्न', panchanga:'पञ्चाङ्ग',
+    samvatsara:'संवत्सर', ayana:'अयन', ritu:'ऋतु', masa:'मास', amanta:'अमान्त', saura:'सौरमान', paksha:'पक्ष', tithi:'तिथि', vasara:'वार', nakshatra:'नक्षत्र', yoga:'योग', karana:'करण',
+    then:'फिर', shaka:'शक', sankalpa:'सङ्कल्प', copy:'कॉपी', copied:'कॉपी हो गया', share:'साझा करें', ics:'.ics डाउनलोड (तीनों)',
+    quick:'त्वरित कॉपी', todayQuick:'आज की त्वरित कॉपी', music:'भक्ति नाद', tapStart:'भक्ति नाद आरम्भ करने हेतु कहीं भी स्पर्श करें',
+    customAudio:'अपना ऑडियो URL', save:'सहेजें', method:'गणना विधि', polar:'इस दिन यहाँ सूर्योदय या सूर्यास्त नहीं होता।',
+    locFail:'स्थान उपलब्ध नहीं; बेंगलुरु प्रयुक्त।', myLoc:'मेरा स्थान', saved:'सहेजा गया', audioErr:'ऑडियो नहीं चला; नाद प्रयुक्त।',
+    reminders:'अनुस्मारक', remindNote:'प्रत्येक सन्ध्या काल के आरम्भ पर सूचना, अगले 30 दिन', remindOn:'30 दिनों के अनुस्मारक तय', remindOff:'अनुस्मारक बन्द',
+    rahu:'राहु काल', yama:'यमगण्ड', gulika:'गुलिक काल', moonRashi:'चन्द्र राशि', chandrashtama:'चन्द्राष्टम', sauraDate:'सौर दिनांक', calendar:'कैलेंडर', pakshaShort:['शु','कृ'],
+    until: x => `${x} तक`, inX: x => `${x} में`, at: (s, t) => `${s} · ${t}` },
+  te: { title:'సంధ్యా సంకల్పం', sub:'దైనిక పంచాంగం · సంధ్యావందన సమయాలు', locate:'స్థానం', today:'ఈరోజు', advanced:'స్వంత అక్షాంశ రేఖాంశాలు',
+    lat:'అక్షాంశం', lon:'రేఖాంశం', tz:'సమయ మండలం', apply:'వర్తింపజేయి', sunPath:'సూర్య మార్గం', windows:'సంధ్యా కాలాలు',
+    pratah:'ప్రాతఃసంధ్య', madhya:'మాధ్యాహ్నికం', sayam:'సాయంసంధ్య',
+    pratahSub:'ఉషఃకాలం నుండి సూర్యోదయం వరకు', madhyaSub:'మధ్యాహ్నం ± 24 నిమిషాలు', sayamSub:'సూర్యాస్తమయానికి ముందు నుండి సంధ్య వరకు',
+    sunrise:'సూర్యోదయం', noon:'మధ్యాహ్నం', sunset:'సూర్యాస్తమయం', arunodaya:'అరుణోదయం', dawn:'ఉషఃకాలం', dusk:'గోధూళి', daylength:'దినమానం',
+    addCal:'క్యాలెండర్', useSankalpa:'సంకల్పం', now:'ఇప్పుడు', done:'పూర్తయింది', panchanga:'పంచాంగం',
+    samvatsara:'సంవత్సరం', ayana:'అయనం', ritu:'ఋతువు', masa:'మాసం', amanta:'అమాంత', saura:'సౌరమానం', paksha:'పక్షం', tithi:'తిథి', vasara:'వారం', nakshatra:'నక్షత్రం', yoga:'యోగం', karana:'కరణం',
+    then:'తర్వాత', shaka:'శక', sankalpa:'సంకల్పం', copy:'కాపీ', copied:'కాపీ చేయబడింది', share:'పంచుకో', ics:'.ics డౌన్‌లోడ్ (మూడూ)',
+    quick:'త్వరిత కాపీ', todayQuick:'నేటి త్వరిత కాపీ', music:'భక్తి నాదం', tapStart:'భక్తి నాదం ప్రారంభించడానికి ఎక్కడైనా తాకండి',
+    customAudio:'స్వంత ఆడియో URL', save:'సేవ్', method:'గణన విధానం', polar:'ఈ రోజు ఇక్కడ సూర్యోదయం లేదా అస్తమయం లేదు.',
+    locFail:'స్థానం అందుబాటులో లేదు; బెంగళూరు ఉపయోగించబడింది.', myLoc:'నా స్థానం', saved:'సేవ్ చేయబడింది', audioErr:'ఆడియో ప్లే కాలేదు; నాదం ఉపయోగించబడింది.',
+    reminders:'రిమైండర్లు', remindNote:'ప్రతి సంధ్యా కాలం ప్రారంభంలో నోటిఫికేషన్, తదుపరి 30 రోజులు', remindOn:'30 రోజుల రిమైండర్లు సెట్ అయ్యాయి', remindOff:'రిమైండర్లు ఆఫ్',
+    rahu:'రాహు కాలం', yama:'యమగండం', gulika:'గుళిక కాలం', moonRashi:'చంద్ర రాశి', chandrashtama:'చంద్రాష్టమం', sauraDate:'సౌర తేదీ', calendar:'క్యాలెండర్', pakshaShort:['శు','బ'],
+    until: x => `${x} వరకు`, inX: x => `${x}లో`, at: (s, t) => `${s} · ${t}` },
+  ta: { title:'சந்தியா சங்கல்பம்', sub:'தினசரி பஞ்சாங்கம் · சந்தியாவந்தன நேரங்கள்', locate:'இடம்', today:'இன்று', advanced:'தனிப்பயன் அட்சரேகை, தீர்க்கரேகை',
+    lat:'அட்சரேகை', lon:'தீர்க்கரேகை', tz:'நேர மண்டலம்', apply:'பயன்படுத்து', sunPath:'சூரியப் பாதை', windows:'சந்தியா காலங்கள்',
+    pratah:'ப்ராத: ஸந்த்யா', madhya:'மாத்யாஹ்னிகம்', sayam:'ஸாயம் ஸந்த்யா',
+    pratahSub:'விடியல் முதல் சூரிய உதயம் வரை', madhyaSub:'நண்பகல் ± 24 நிமிடம்', sayamSub:'சூரிய அஸ்தமனத்திற்கு முன் முதல் அந்தி வரை',
+    sunrise:'சூரிய உதயம்', noon:'நண்பகல்', sunset:'சூரிய அஸ்தமனம்', arunodaya:'அருணோதயம்', dawn:'விடியல்', dusk:'அந்தி', daylength:'பகல் நேரம்',
+    addCal:'நாட்காட்டி', useSankalpa:'சங்கல்பம்', now:'இப்போது', done:'முடிந்தது', panchanga:'பஞ்சாங்கம்',
+    samvatsara:'வருடம்', ayana:'அயனம்', ritu:'ருது', masa:'மாதம்', amanta:'அமாந்த', saura:'சௌரமானம்', paksha:'பக்ஷம்', tithi:'திதி', vasara:'வாரம்', nakshatra:'நட்சத்திரம்', yoga:'யோகம்', karana:'கரணம்',
+    then:'பிறகு', shaka:'சகம்', sankalpa:'ஸங்கல்பம்', copy:'நகலெடு', copied:'நகலெடுக்கப்பட்டது', share:'பகிர்', ics:'.ics பதிவிறக்கம் (மூன்றும்)',
+    quick:'விரைவு நகல்', todayQuick:'இன்றைய விரைவு நகல்', music:'பக்தி நாதம்', tapStart:'பக்தி நாதத்தைத் தொடங்க எங்காவது தொடவும்',
+    customAudio:'சொந்த ஆடியோ URL', save:'சேமி', method:'கணித முறை', polar:'இந்நாளில் இங்கு சூரிய உதயம் அல்லது அஸ்தமனம் இல்லை.',
+    locFail:'இடம் கிடைக்கவில்லை; பெங்களூரு பயன்படுத்தப்பட்டது.', myLoc:'என் இடம்', saved:'சேமிக்கப்பட்டது', audioErr:'ஆடியோ இயங்கவில்லை; நாதம் பயன்படுத்தப்பட்டது.',
+    reminders:'நினைவூட்டல்கள்', remindNote:'ஒவ்வொரு சந்தியா காலத் தொடக்கத்திலும் அறிவிப்பு, அடுத்த 30 நாட்கள்', remindOn:'30 நாள் நினைவூட்டல்கள் அமைக்கப்பட்டன', remindOff:'நினைவூட்டல்கள் நிறுத்தப்பட்டன',
+    rahu:'ராகு காலம்', yama:'எமகண்டம்', gulika:'குளிகை', moonRashi:'சந்திர ராசி', chandrashtama:'சந்திராஷ்டமம்', sauraDate:'தமிழ் தேதி', calendar:'நாட்காட்டி', pakshaShort:['வ','தே'],
+    until: x => `${x} வரை`, inX: x => `${x}-இல்`, at: (s, t) => `${s} · ${t}` }
+};
+
+/* ======================= CITIES ======================= */
+const CITIES = [
+  ['blr','Bengaluru',12.9716,77.5946,'Asia/Kolkata'],['mys','Mysuru',12.2958,76.6394,'Asia/Kolkata'],
+  ['mlr','Mangaluru',12.9141,74.8560,'Asia/Kolkata'],['udp','Udupi',13.3409,74.7421,'Asia/Kolkata'],
+  ['hbl','Hubballi',15.3647,75.1240,'Asia/Kolkata'],['smg','Shivamogga',13.9299,75.5681,'Asia/Kolkata'],
+  ['shr','Sringeri',13.4198,75.2567,'Asia/Kolkata'],['che','Chennai',13.0827,80.2707,'Asia/Kolkata'],
+  ['hyd','Hyderabad',17.3850,78.4867,'Asia/Kolkata'],['tpt','Tirupati',13.6288,79.4192,'Asia/Kolkata'],
+  ['tvm','Thiruvananthapuram',8.5241,76.9366,'Asia/Kolkata'],
+  ['kcp','Kanchipuram',12.8342,79.7036,'Asia/Kolkata'],['trc','Tiruchirappalli',10.7905,78.7047,'Asia/Kolkata'],
+  ['mdu','Madurai',9.9252,78.1198,'Asia/Kolkata'],['cbe','Coimbatore',11.0168,76.9558,'Asia/Kolkata'],
+  ['vja','Vijayawada',16.5062,80.6480,'Asia/Kolkata'],['vtz','Visakhapatnam',17.6868,83.2185,'Asia/Kolkata'],['bom','Mumbai',19.0760,72.8777,'Asia/Kolkata'],
+  ['pnq','Pune',18.5204,73.8567,'Asia/Kolkata'],['del','New Delhi',28.6139,77.2090,'Asia/Kolkata'],
+  ['vns','Varanasi',25.3176,82.9739,'Asia/Kolkata'],['ccu','Kolkata',22.5726,88.3639,'Asia/Kolkata'],
+  ['sin','Singapore',1.3521,103.8198,'Asia/Singapore'],['dxb','Dubai',25.2048,55.2708,'Asia/Dubai'],
+  ['lon','London',51.5074,-0.1278,'Europe/London'],['nyc','New York',40.7128,-74.0060,'America/New_York'],
+  ['sfo','San Francisco',37.7749,-122.4194,'America/Los_Angeles'],['syd','Sydney',-33.8688,151.2093,'Australia/Sydney']
+];
+
+/* ======================= STATE ======================= */
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem('ss_' + k); return v === null ? d : JSON.parse(v); }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem('ss_' + k, JSON.stringify(v)); }catch(e){} }
+};
+const BLR = { id:'blr', name:'Bengaluru', lat:12.9716, lon:77.5946, tz:'Asia/Kolkata' };
+const state = {
+  lang: store.get('lang', 'kn'),
+  eng: store.get('eng', 'simple'),
+  fs: store.get('fs', 17),
+  loc: store.get('loc', BLR),
+  date: null,
+  session: null,
+  sessionManual: false,
+  masaSys: null,   // null = language default
+  calMonth: null,
+  calCache: null,
+
+  day: null
+};
+const WIN = { pratahBefore: 72, arunodaya: 96, madhyaHalf: 24, sayamBefore: 24, sayamAfter: 48 };
+// True when running inside the Android app (WebView exposes a native bridge named "Android")
+const NATIVE = typeof window.Android !== 'undefined';
+state.remind = store.get('remind', true);
+function windowsFor(rise, noon, set){
+  return {
+    pratah: { start: rise - WIN.pratahBefore*MIN, end: rise, anchor: rise },
+    madhya: { start: noon - WIN.madhyaHalf*MIN, end: noon + WIN.madhyaHalf*MIN, anchor: noon },
+    sayam:  { start: set - WIN.sayamBefore*MIN, end: set + WIN.sayamAfter*MIN, anchor: set }
+  };
+}
+const t = k => I18N[state.lang][k];
+const $ = id => document.getElementById(id);
+
+/* ======================= FORMATTING ======================= */
+function fmtTime(ms){
+  if (ms == null) return '—';
+  const s = new Intl.DateTimeFormat('en-IN', { hour:'numeric', minute:'2-digit', hour12:true, timeZone: state.loc.tz }).format(ms);
+  const p = localParts(ms, state.loc.tz), d = state.date;
+  if (p.y !== d.y || p.m !== d.m || p.d !== d.d){
+    const day = new Intl.DateTimeFormat('en-IN', { weekday:'short', day:'numeric', timeZone: state.loc.tz }).format(ms);
+    return `${day}, ${s}`;
+  }
+  return s;
+}
+function fmtDur(ms){ const m = Math.max(0, Math.round(ms/MIN)); const h = Math.floor(m/60), mm = m%60; return h ? `${h}h ${mm}m` : `${mm}m`; }
+const tzAbbr = () => { try{ return new Intl.DateTimeFormat('en-US',{timeZone:state.loc.tz,timeZoneName:'short'}).formatToParts(Date.now()).find(x=>x.type==='timeZoneName').value; }catch(e){ return state.loc.tz; } };
+
+// Name in the UI language: primary + secondary
+// Devanagari master text rendered in the script of the UI language (null for English)
+function inScript(dev){
+  switch (state.lang){
+    case 'kn': return toKn(dev);
+    case 'te': return toTe(dev);
+    case 'ta': return toTa(dev);
+    case 'hi': return dev;
+    default: return null;
+  }
+}
+function nm(dev){ const s = inScript(dev); return s !== null ? s : titleCase(translit(dev, 'simple')); }
+function nmSub(dev){ return state.lang === 'en' ? translit(dev, 'iast') : titleCase(translit(dev, 'simple')); }
+function scriptOut(dev){
+  const s0 = inScript(dev); if (s0 !== null) return s0;
+  const s = translit(dev, state.eng);
+  return state.eng === 'simple' ? titleCase(s) : s.charAt(0).toUpperCase() + s.slice(1);
+}
+const SCRIPT_FONT = { kn:'font-kn', te:'font-te', ta:'font-ta', hi:'font-dv', en:'font-serif' };
+const scriptFont = () => SCRIPT_FONT[state.lang];
+
+// Month system: Chandramana (amanta lunar) by default; Sauramana (solar) by default for Tamil
+const masaSys = () => state.masaSys || (state.lang === 'ta' ? 'saura' : 'chandra');
+function calView(p){
+  if (masaSys() === 'saura'){
+    return { masa: N.rashi[p.sunRashi], ritu: p.sauraRitu, sam: p.sauraSamIdx, shaka: p.sauraShaka, mana: 'सौरमानेन',
+             note: state.lang === 'ta' ? N.tamilMonthTa[p.sunRashi] : N.tamilMonthEn[p.sunRashi] };
+  }
+  return { masa: masaName(p), ritu: p.ritu, sam: p.samIdx, shaka: p.shaka, mana: 'चान्द्रमानेन', note: '' };
+}
+
+/* ======================= DAY COMPUTATION ======================= */
+function todayInTz(){ const p = localParts(Date.now(), state.loc.tz); return { y:p.y, m:p.m, d:p.d }; }
+function isToday(){ const n = todayInTz(), d = state.date; return n.y===d.y && n.m===d.m && n.d===d.d; }
+
+function computeDay(){
+  const { lat, lon, tz } = state.loc, { y, m, d } = state.date;
+  const mid = zonedToUtc(y, m, d, 0, 0, tz), base = mid + 12*HOUR;
+  const noon = sunEvent(base, lat, lon, 0, 'noon');
+  let rise = sunEvent(base, lat, lon, -0.8333, 'rise'), set = sunEvent(base, lat, lon, -0.8333, 'set');
+  const polar = rise == null || set == null;
+  if (polar){ rise = noon - 6*HOUR; set = noon + 6*HOUR; }
+  const dawn = sunEvent(base, lat, lon, -6, 'rise'), dusk = sunEvent(base, lat, lon, -6, 'set');
+  const win = windowsFor(rise, noon, set);
+  const pan = { pratah: panchangaAt(rise, tz), madhya: panchangaAt(noon, tz), sayam: panchangaAt(set, tz) };
+  const weekday = new Date(Date.UTC(y, m-1, d)).getUTCDay();
+  return { mid, noon, rise, set, dawn, dusk, polar, arunodaya: rise - WIN.arunodaya*MIN, win, pan, weekday,
+           kalam: kalams(rise, set, weekday), saura: sauraDate(y, m, d, lat, lon, tz, polar ? null : set) };
+}
+
+function autoSession(d){
+  if (!isToday()) return 'pratah';
+  const now = Date.now();
+  if (now < (d.win.pratah.end + d.win.madhya.start)/2) return 'pratah';
+  if (now < (d.win.madhya.end + d.win.sayam.start)/2) return 'madhya';
+  return 'sayam';
+}
+
+/* ======================= SANKALPA ======================= */
+function sankalpaDev(p, session, weekday){
+  const c = calView(p);
+  return [
+    'शुभे शोभने मुहूर्ते', 'आद्यब्रह्मणः द्वितीयपरार्धे', 'श्वेतवराहकल्पे', 'वैवस्वतमन्वन्तरे',
+    'अष्टाविंशतितमे कलियुगे', 'प्रथमे पादे', 'जम्बूद्वीपे', 'भारतवर्षे', 'भरतखण्डे', 'मेरोः दक्षिणे पार्श्वे',
+    'शालिवाहनशके', `अस्मिन् वर्तमाने व्यावहारिके ${c.mana}`, 'प्रभवादि षष्टिसंवत्सराणां मध्ये',
+    `${N.samvatsara[c.sam]} नाम संवत्सरे`,
+    `${N.ayana[p.ayana]}े`,
+    `${N.ritu[c.ritu]} ऋतौ`,
+    `${c.masa} मासे`,
+    `${N.paksha[p.paksha]} पक्षे`,
+    `${tithiName(p.tithiIdx)} तिथौ`,
+    `${N.vasara[weekday]} वासरे`,
+    `${N.nakshatra[p.nakIdx]} नक्षत्र युक्तायां`,
+    'शुभयोग शुभकरण एवंगुण विशेषण विशिष्टायां', 'अस्यां शुभतिथौ',
+    'ममोपात्त समस्त दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थं',
+    N.sessionEnd[session] + ' ॥'
+  ].join(', ');
+}
+const sankalpaText = (session) => scriptOut(sankalpaDev(state.day.pan[session], session, state.day.weekday));
+function quickLine(session){
+  const p = state.day.pan[session];
+  return [`${nm(N.paksha[p.paksha])} ${nm(tithiName(p.tithiIdx))}`, `${nm(N.vasara[state.day.weekday])}`, nm(N.nakshatra[p.nakIdx]), `${nm(calView(p).masa)}`].join(' · ');
+}
+
+/* ======================= CALENDAR EXPORT ======================= */
+const CAL_TITLE = { pratah: 'Pratah Sandhyavandanam', madhya: 'Madhyahnikam', sayam: 'Sayam Sandhyavandanam' };
+const toGcalDate = ms => new Date(ms).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+function eventDetails(session){
+  const d = state.day, w = d.win[session], p = d.pan[session];
+  const anchorName = { pratah: 'Sunrise', madhya: 'Solar noon', sayam: 'Sunset' }[session];
+  return `${sankalpaText(session)}\n\n` +
+    `Window: ${fmtTime(w.start)} to ${fmtTime(w.end)} (${tzAbbr()}) · ${anchorName} ${fmtTime(w.anchor)}\n` +
+    `Tithi: ${titleCase(translit(N.paksha[p.paksha] + ' ' + tithiName(p.tithiIdx), 'simple'))} until ${fmtTime(p.tithiEnd)} · ` +
+    `Nakshatra: ${titleCase(translit(N.nakshatra[p.nakIdx], 'simple'))} until ${fmtTime(p.nakEnd)}\n` +
+    `Location: ${placeLabel()} (${state.loc.lat.toFixed(4)}, ${state.loc.lon.toFixed(4)})`;
+}
+function gcalUrl(session){
+  const w = state.day.win[session];
+  const q = { action:'TEMPLATE', text: CAL_TITLE[session], dates: `${toGcalDate(w.start)}/${toGcalDate(w.end)}`, details: eventDetails(session), location: placeLabel() };
+  return 'https://calendar.google.com/calendar/render?' + Object.entries(q).map(([k,v]) => k + '=' + encodeURIComponent(v)).join('&');
+}
+function icsEscape(s){ return s.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;'); }
+function icsFold(line){
+  const enc = new TextEncoder(); const out = []; let cur = '', bytes = 0;
+  for (const ch of line){ const b = enc.encode(ch).length; if (bytes + b > 73){ out.push(cur); cur = ' ' + ch; bytes = 1 + b; } else { cur += ch; bytes += b; } }
+  out.push(cur); return out.join('\r\n');
+}
+function buildIcs(){
+  const stamp = toGcalDate(Date.now());
+  const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sandhya Sankalpa//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH'];
+  for (const s of ['pratah','madhya','sayam']){
+    const w = state.day.win[s];
+    lines.push('BEGIN:VEVENT', `UID:${s}-${toGcalDate(w.start)}@sandhya-sankalpa`, `DTSTAMP:${stamp}`,
+      `DTSTART:${toGcalDate(w.start)}`, `DTEND:${toGcalDate(w.end)}`, `SUMMARY:${icsEscape(CAL_TITLE[s])}`,
+      `DESCRIPTION:${icsEscape(eventDetails(s))}`, `LOCATION:${icsEscape(placeLabel())}`,
+      'BEGIN:VALARM','ACTION:DISPLAY',`DESCRIPTION:${icsEscape(CAL_TITLE[s])}`,'TRIGGER:-PT10M','END:VALARM','END:VEVENT');
+  }
+  lines.push('END:VCALENDAR');
+  return lines.map(icsFold).join('\r\n');
+}
+
+/* ======================= ICONS ======================= */
+const ICON = {
+  pratah: '<svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 17.5a5.5 5.5 0 0 1 11 0"/><path d="M2 21h20M4 17.5h1M19 17.5h1M5.6 11.1l.8.8M18.4 11.1l-.8.8"/><path d="M12 9V3M9.5 5.5 12 3l2.5 2.5"/></svg>',
+  madhya: '<svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>',
+  sayam: '<svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 17.5a5.5 5.5 0 0 1 11 0"/><path d="M2 21h20M4 17.5h1M19 17.5h1M5.6 11.1l.8.8M18.4 11.1l-.8.8"/><path d="M12 3v6M9.5 6.5 12 9l2.5-2.5"/></svg>',
+  cal: '<svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M12 14v4M10 16h4"/></svg>',
+  text: '<svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
+  sun: '<svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  moon: '<svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>',
+  musicOn: '<svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
+  musicOff: '<svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="m22 9-6 6M16 9l6 6"/></svg>'
+};
+const TINT = {
+  pratah: 'bg-amber-100 text-amber-600 dark:bg-amber-500/15 dark:text-amber-300',
+  madhya: 'bg-orange-100 text-orange-600 dark:bg-orange-500/15 dark:text-orange-300',
+  sayam:  'bg-rose-100 text-rose-600 dark:bg-rose-500/15 dark:text-rose-300'
+};
+
+/* ======================= RENDER ======================= */
+function placeLabel(){ return state.loc.id === 'geo' ? t('myLoc') : state.loc.id === 'custom' ? `${state.loc.lat.toFixed(2)}, ${state.loc.lon.toFixed(2)}` : state.loc.name; }
+
+function renderStatic(){
+  document.documentElement.lang = state.lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => { const v = t(el.dataset.i18n); if (typeof v === 'string') el.textContent = v; });
+  document.querySelectorAll('#langSeg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === state.lang));
+  document.querySelectorAll('#msSeg button').forEach(b => { b.textContent = nm(b.dataset.ms === 'saura' ? N.sauramana : N.chandramana); b.setAttribute('aria-pressed', b.dataset.ms === masaSys()); });
+  document.querySelectorAll('#engSeg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.eng === state.eng));
+  $('engSeg').classList.toggle('hidden', state.lang !== 'en');
+  document.querySelectorAll('#sessSeg button').forEach(b => { b.textContent = t(b.dataset.session); b.setAttribute('aria-pressed', b.dataset.session === state.session); });
+  $('themeBtn').innerHTML = document.documentElement.classList.contains('dark') ? ICON.sun : ICON.moon;
+}
+
+function renderPlace(){
+  const ns = Math.abs(state.loc.lat).toFixed(4) + '°' + (state.loc.lat >= 0 ? 'N' : 'S');
+  const ew = Math.abs(state.loc.lon).toFixed(4) + '°' + (state.loc.lon >= 0 ? 'E' : 'W');
+  const wd = new Intl.DateTimeFormat(state.lang === 'en' ? 'en-IN' : state.lang + '-IN', { weekday:'long', day:'numeric', month:'long', year:'numeric', timeZone:'UTC' })
+    .format(Date.UTC(state.date.y, state.date.m-1, state.date.d));
+  $('placeLine').textContent = `${placeLabel()} · ${ns}, ${ew} · ${state.loc.tz} · ${wd}`;
+  $('dateIn').value = `${state.date.y}-${String(state.date.m).padStart(2,'0')}-${String(state.date.d).padStart(2,'0')}`;
+}
+
+function renderArc(d){
+  const W = 360, H = 170, pad = 14, hz = 112, amp = 84;
+  const t0 = d.rise - 110*MIN, t1 = d.set + 70*MIN;
+  const X = ms => pad + (ms - t0)/(t1 - t0)*(W - 2*pad);
+  const Y = ms => hz - amp*Math.sin(Math.PI*(ms - d.rise)/(d.set - d.rise));
+  let path = '';
+  for (let i = 0; i <= 80; i++){ const ms = t0 + (t1 - t0)*i/80; path += (i ? 'L' : 'M') + X(ms).toFixed(1) + ' ' + Y(ms).toFixed(1); }
+  const bands = [['pratah','fill-amber-400'],['madhya','fill-orange-400'],['sayam','fill-rose-400']].map(([k, cls]) => {
+    const w = d.win[k]; const x1 = Math.max(pad, X(w.start)), x2 = Math.min(W - pad, X(w.end));
+    return `<rect x="${x1.toFixed(1)}" y="8" width="${Math.max(0, x2 - x1).toFixed(1)}" height="${H - 30}" rx="6" class="${cls}" opacity=".16"/>`;
+  }).join('');
+  const marks = [d.rise, d.noon, d.set].map((ms, i) => {
+    const x = X(ms), y = i === 1 ? Y(ms) : hz;
+    return `<line x1="${x}" x2="${x}" y1="${y}" y2="${hz + 6}" class="stroke-slate-300 dark:stroke-slate-600" stroke-dasharray="2 3"/>
+      <text x="${x}" y="${H - 6}" text-anchor="middle" class="fill-slate-500 dark:fill-slate-400 tabular-nums" font-size="10.5">${fmtTime(ms)}</text>`;
+  }).join('');
+  let now = '';
+  const n = Date.now();
+  if (isToday() && n >= t0 && n <= t1){
+    const x = X(n), y = Y(n), up = y <= hz;
+    now = `<circle cx="${x}" cy="${y}" r="${up ? 9 : 6}" class="${up ? 'fill-amber-400' : 'fill-slate-400'}" opacity="${up ? .25 : .3}"/>
+      <circle cx="${x}" cy="${y}" r="${up ? 5.5 : 4}" class="${up ? 'fill-amber-500' : 'fill-slate-400 dark:fill-slate-500'}"/>`;
+  }
+  $('arc').innerHTML = `<svg viewBox="0 0 ${W} ${H}" class="w-full h-auto" role="img" aria-label="Sun path with sandhya windows">
+    <defs><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fbbf24" stop-opacity=".18"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient></defs>
+    ${bands}
+    <path d="${path} L ${W - pad} ${hz} L ${pad} ${hz} Z" fill="url(#sky)"/>
+    <line x1="${pad}" x2="${W - pad}" y1="${hz}" y2="${hz}" class="stroke-slate-300 dark:stroke-slate-700" stroke-width="1.2"/>
+    <path d="${path}" fill="none" class="stroke-amber-500" stroke-width="2.2" stroke-linecap="round"/>
+    ${marks}${now}</svg>`;
+  $('dayLen').textContent = d.polar ? t('polar') : `${t('daylength')} ${fmtDur(d.set - d.rise)}`;
+  const fact = (lab, v) => `<div class="rounded-2xl bg-stone-100/80 dark:bg-slate-800/60 py-2"><p class="label">${lab}</p><p class="text-sm font-semibold tabular-nums mt-0.5">${v}</p></div>`;
+  $('sunFacts').innerHTML = fact(t('sunrise'), fmtTime(d.rise)) + fact(t('noon'), fmtTime(d.noon)) + fact(t('sunset'), fmtTime(d.set)) +
+    fact(t('arunodaya'), fmtTime(d.arunodaya)) + fact(t('dawn'), fmtTime(d.dawn)) + fact(t('dusk'), fmtTime(d.dusk)) +
+    ['rahu','yama','gulika'].map(k => `<div class="rounded-2xl bg-rose-50 dark:bg-rose-500/10 py-2 px-1"><p class="label !text-rose-700 dark:!text-rose-300 truncate">${t(k)}</p>`
+      + `<p class="text-sm font-semibold tabular-nums mt-0.5">${fmtTime(d.kalam[k].start)}</p><p class="text-xs tabular-nums text-slate-500 dark:text-slate-400">→ ${fmtTime(d.kalam[k].end)}</p></div>`).join('');
+}
+
+function statusChip(w){
+  if (!isToday()) return '';
+  const n = Date.now();
+  if (n < w.start) return `<span class="chip bg-stone-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300 tabular-nums">${t('inX')(fmtDur(w.start - n))}</span>`;
+  if (n <= w.end) return `<span class="chip bg-amber-500 text-white dark:text-slate-950"><span class="w-1.5 h-1.5 rounded-full bg-white dark:bg-slate-950 animate-pulse"></span>${t('now')}</span>`;
+  return `<span class="chip bg-emerald-100 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300">${t('done')}</span>`;
+}
+
+function renderSessions(d){
+  const anchorLab = { pratah: t('sunrise'), madhya: t('noon'), sayam: t('sunset') };
+  $('sessions').innerHTML = ['pratah','madhya','sayam'].map(s => {
+    const w = d.win[s], active = s === state.session;
+    const extra = s === 'pratah' ? ` · ${t('arunodaya')} ${fmtTime(d.arunodaya)}` : '';
+    return `<article class="card p-4 transition ${active ? 'ring-2 ring-amber-400/80 dark:ring-amber-400/60' : ''}">
+      <div class="flex items-start gap-3">
+        <div class="shrink-0 w-12 h-12 rounded-2xl grid place-items-center ${TINT[s]}">${ICON[s]}</div>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between gap-2">
+            <h3 class="font-semibold truncate">${t(s)}</h3>${statusChip(w)}
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 truncate">${t(s + 'Sub')}</p>
+          <p class="mt-2 text-[1.6rem] leading-tight font-semibold tabular-nums tracking-tight">${fmtTime(w.start)} <span class="text-slate-400 font-normal">→</span> ${fmtTime(w.end)}</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1 tabular-nums">${anchorLab[s]} ${fmtTime(w.anchor)}${extra}</p>
+          <div class="grid grid-cols-2 gap-2 mt-3">
+            ${NATIVE
+              ? `<button data-cal="${s}" class="btn-ghost !text-xs">${ICON.cal}<span>${t('addCal')}</span></button>`
+              : `<a href="${gcalUrl(s)}" target="_blank" rel="noopener" class="btn-ghost !text-xs">${ICON.cal}<span>${t('addCal')}</span></a>`}
+            <button data-pick="${s}" class="btn-ghost !text-xs ${active ? '!bg-amber-100 !text-amber-800 dark:!bg-amber-500/15 dark:!text-amber-200' : ''}">${ICON.text}<span>${t('useSankalpa')}</span></button>
+          </div>
+        </div>
+      </div></article>`;
+  }).join('');
+  $('sessions').querySelectorAll('[data-pick]').forEach(b => b.onclick = () => {
+    state.session = b.dataset.pick; state.sessionManual = true; renderAll(false);
+    if (window.innerWidth < 1024) $('sankalpaCard').scrollIntoView({ behavior:'smooth', block:'start' });
+  });
+  $('sessions').querySelectorAll('[data-cal]').forEach(b => b.onclick = () => {
+    const s = b.dataset.cal, w = state.day.win[s];
+    window.Android.addEvent(CAL_TITLE[s], eventDetails(s), String(Math.round(w.start)), String(Math.round(w.end)), placeLabel());
+  });
+}
+
+function renderPanchanga(d){
+  const p = d.pan[state.session];
+  const anchorLab = { pratah: t('sunrise'), madhya: t('noon'), sayam: t('sunset') }[state.session];
+  $('panTitle').textContent = t('panchanga');
+  $('panAt').textContent = t('at')(anchorLab, fmtTime(p.ms));
+  const tileTxt = (label, main, sub, wide) => `<div class="rounded-2xl bg-stone-100/70 dark:bg-slate-800/50 p-3 ${wide ? 'col-span-2' : ''}">
+      <p class="label">${label}</p><p class="font-semibold mt-0.5 ${state.lang !== 'en' ? scriptFont() : ''}">${main}</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">${sub}</p></div>`;
+  const tile = (label, dev, note, wide) => `<div class="rounded-2xl bg-stone-100/70 dark:bg-slate-800/50 p-3 ${wide ? 'col-span-2' : ''}">
+      <p class="label">${label}</p>
+      <p class="font-semibold mt-0.5 ${state.lang !== 'en' ? scriptFont() : ''}">${nm(dev)}</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">${nmSub(dev)}${note ? ' · ' + note : ''}</p></div>`;
+  const cv = calView(p);
+  const nextTithi = tithiName((p.tithiIdx + 1) % 30), nextNak = N.nakshatra[(p.nakIdx + 1) % 27];
+  $('panGrid').innerHTML =
+    tile(t('samvatsara'), N.samvatsara[cv.sam], `${t('shaka')} ${cv.shaka}`) +
+    tile(t('ayana'), N.ayana[p.ayana]) +
+    tile(t('ritu'), N.ritu[cv.ritu]) +
+    tile(`${t('masa')} (${t(masaSys() === 'saura' ? 'saura' : 'amanta')})`, cv.masa, cv.note) +
+    tile(t('paksha'), N.paksha[p.paksha]) +
+    tile(t('vasara'), N.vasara[d.weekday], N.weekdayEn[d.weekday]) +
+    tile(t('tithi'), tithiName(p.tithiIdx), `${t('until')(fmtTime(p.tithiEnd))}, ${t('then')} ${nm(nextTithi)}`, true) +
+    tile(t('nakshatra'), N.nakshatra[p.nakIdx], `${t('until')(fmtTime(p.nakEnd))}, ${t('then')} ${nm(nextNak)}`, true) +
+    tile(t('yoga'), N.yoga[p.yogaIdx], t('until')(fmtTime(p.yogaEnd))) +
+    tile(t('karana'), karanaName(p.karanaIdx), t('until')(fmtTime(p.karanaEnd))) +
+    (masaSys() === 'saura' ? tileTxt(t('sauraDate'), sauraLabel(d.saura), `${N.tamilMonthEn[d.saura.rashi]} ${d.saura.day}`) : '') +
+    tileTxt(t('moonRashi'), rashiName(p.moonRashi), `${rashiSub(p.moonRashi)} · ${t('until')(fmtTime(p.moonRashiEnd))}`) +
+    tileTxt(t('chandrashtama'), rashiName(p.chandrashtama), rashiSub(p.chandrashtama), masaSys() !== 'saura');
+}
+
+function renderSankalpa(){
+  $('sankalpaHead').textContent = t('sankalpa');
+  $('sankalpaHead').className = `font-semibold text-lg ${scriptFont()}`;
+  const el = $('sankalpaText');
+  el.className = `leading-loose text-slate-800 dark:text-amber-50/90 ${scriptFont()}`;
+  el.style.fontSize = state.fs + 'px';
+  el.textContent = sankalpaText(state.session);
+}
+
+function renderQuick(){
+  $('qLabel').textContent = `${isToday() ? t('todayQuick') : t('quick')} · ${t(state.session)}`;
+  $('qLine').textContent = quickLine(state.session);
+  $('qIcon').innerHTML = ICON[state.session].replace('w-6 h-6', 'w-5 h-5');
+}
+
+function renderAll(recompute = true){
+  if (recompute || !state.day) state.day = computeDay();
+  if (!state.sessionManual) state.session = autoSession(state.day);
+  renderStatic(); renderPlace(); renderArc(state.day); renderSessions(state.day); renderPanchanga(state.day); renderCalendar(); renderSankalpa(); renderQuick();
+}
+
+/* ======================= INTERACTIONS ======================= */
+function toast(msg){ const el = $('toast'); el.textContent = msg; el.classList.remove('hidden'); clearTimeout(toast._t); toast._t = setTimeout(() => el.classList.add('hidden'), 1800); }
+async function copyText(txt){
+  if (NATIVE){ window.Android.copy(txt); toast(t('copied')); return; }
+  try { await navigator.clipboard.writeText(txt); }
+  catch(e){ const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(_){} ta.remove(); }
+  toast(t('copied'));
+}
+function setDate(y, m, d){ state.date = { y, m, d }; state.calMonth = { y, m }; state.sessionManual = false; renderAll(); }
+function shiftDay(n){ const dt = new Date(Date.UTC(state.date.y, state.date.m-1, state.date.d + n)); setDate(dt.getUTCFullYear(), dt.getUTCMonth()+1, dt.getUTCDate()); }
+function setLoc(loc){ state.loc = loc; store.set('loc', loc); fillCoordFields(); state.date = todayInTz(); state.calMonth = null; state.sessionManual = false; renderAll(); syncReminders(); }
+
+function fillCities(){
+  const sel = $('citySel');
+  sel.innerHTML = CITIES.map(c => `<option value="${c[0]}">${c[1]}</option>`).join('') + `<option value="geo" hidden>📍</option><option value="custom" hidden>⌖</option>`;
+  sel.value = state.loc.id;
+  const geoOpt = sel.querySelector('option[value="geo"]'), cusOpt = sel.querySelector('option[value="custom"]');
+  geoOpt.textContent = '📍 ' + t('myLoc'); cusOpt.textContent = '⌖ ' + (state.loc.id === 'custom' ? placeLabel() : 'Custom');
+}
+function fillCoordFields(){
+  $('latIn').value = state.loc.lat; $('lonIn').value = state.loc.lon;
+  const zones = (Intl.supportedValuesOf ? Intl.supportedValuesOf('timeZone') : [...new Set(CITIES.map(c => c[4]))]);
+  if (!zones.includes(state.loc.tz)) zones.push(state.loc.tz);
+  $('tzIn').innerHTML = zones.map(z => `<option${z === state.loc.tz ? ' selected' : ''}>${z}</option>`).join('');
+  fillCities();
+}
+
+function bind(){
+  $('langSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; state.lang = b.dataset.lang; store.set('lang', state.lang); state.masaSys = null; fillCities(); renderAll(false); syncReminders(); };
+  $('engSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; state.eng = b.dataset.eng; store.set('eng', state.eng); renderAll(false); };
+  $('msSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; state.masaSys = b.dataset.ms; renderAll(false); };
+  $('sessSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; state.session = b.dataset.session; state.sessionManual = true; renderAll(false); };
+  $('citySel').onchange = e => { const c = CITIES.find(x => x[0] === e.target.value); if (c) setLoc({ id:c[0], name:c[1], lat:c[2], lon:c[3], tz:c[4] }); };
+  $('geoBtn').onclick = () => {
+    if (NATIVE){ window.Android.requestLocation(); return; }
+    if (!navigator.geolocation){ toast(t('locFail')); return; }
+    navigator.geolocation.getCurrentPosition(
+      pos => setLoc({ id:'geo', name:t('myLoc'), lat:+pos.coords.latitude.toFixed(4), lon:+pos.coords.longitude.toFixed(4), tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Asia/Kolkata' }),
+      () => { toast(t('locFail')); setLoc(BLR); },
+      { enableHighAccuracy:false, timeout:10000, maximumAge:600000 });
+  };
+  $('applyCoords').onclick = () => {
+    const lat = parseFloat($('latIn').value), lon = parseFloat($('lonIn').value), tz = $('tzIn').value;
+    if (!isFinite(lat) || !isFinite(lon) || Math.abs(lat) > 89 || Math.abs(lon) > 180) return;
+    setLoc({ id:'custom', name:'Custom', lat, lon, tz });
+  };
+  $('calPrev').onclick = () => shiftMonth(-1);
+  $('calNext').onclick = () => shiftMonth(1);
+  $('prevDay').onclick = () => shiftDay(-1);
+  $('nextDay').onclick = () => shiftDay(1);
+  $('todayBtn').onclick = () => { const n = todayInTz(); setDate(n.y, n.m, n.d); };
+  $('dateIn').onchange = e => { const [y, m, d] = e.target.value.split('-').map(Number); if (y && m && d) setDate(y, m, d); };
+  $('copyBtn').onclick = () => copyText(sankalpaText(state.session));
+  $('qCopy').onclick = () => copyText(sankalpaText(state.session));
+  $('shareBtn').onclick = async () => {
+    const txt = sankalpaText(state.session);
+    if (NATIVE){ window.Android.share(CAL_TITLE[state.session], txt); return; }
+    if (navigator.share){ try{ await navigator.share({ title: CAL_TITLE[state.session], text: txt }); }catch(e){} } else copyText(txt);
+  };
+  $('icsBtn').onclick = () => {
+    const blob = new Blob([buildIcs()], { type:'text/calendar;charset=utf-8' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = `sandhya-${$('dateIn').value}.ics`; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  };
+  $('fsUp').onclick = () => { state.fs = Math.min(26, state.fs + 1); store.set('fs', state.fs); renderSankalpa(); };
+  $('fsDown').onclick = () => { state.fs = Math.max(13, state.fs - 1); store.set('fs', state.fs); renderSankalpa(); };
+  $('themeBtn').onclick = () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    try{ localStorage.setItem('ss_theme', dark ? 'dark' : 'light'); }catch(e){}
+    if (NATIVE) window.Android.setSystemBars(dark);
+    renderStatic();
+  };
+  $('remindBtn').onclick = () => {
+    state.remind = !state.remind; store.set('remind', state.remind);
+    syncReminders(); renderRemind(); toast(state.remind ? t('remindOn') : t('remindOff'));
+  };
+}
+
+/* ======================= CALENDAR ======================= */
+const LOCALE = { kn:'kn-IN', te:'te-IN', ta:'ta-IN', hi:'hi-IN', en:'en-IN' };
+function rashiName(i){ return state.lang === 'ta' ? N.rashiTa[i] : state.lang === 'te' ? N.rashiTe[i] : nm(N.rashiDisp[i]); }
+const rashiSub = i => titleCase(translit(N.rashiDisp[i], 'simple'));
+const sauraMonthName = r => state.lang === 'ta' ? N.tamilMonthTa[r] : nm(N.rashi[r]);
+const sauraLabel = s => `${sauraMonthName(s.rashi)} ${s.day}`;
+
+function calendarDays(y, m){
+  const { lat, lon, tz } = state.loc, key = [y, m, lat, lon, tz].join('|');
+  if (state.calCache && state.calCache.key === key) return state.calCache.days;
+  const n = new Date(Date.UTC(y, m, 0)).getUTCDate(), days = [];
+  for (let d = 1; d <= n + 1; d++){ const dt = new Date(Date.UTC(y, m-1, d)); days.push(calendarDay(dt.getUTCFullYear(), dt.getUTCMonth()+1, dt.getUTCDate(), lat, lon, tz)); }
+  state.calCache = { key, days };
+  return days;
+}
+const PAKSHA_TXT = ['text-amber-700 dark:text-amber-300', 'text-indigo-700 dark:text-indigo-300'];
+const MARK = {
+  amavasya: 'bg-slate-700 dark:bg-slate-200', purnima: 'bg-amber-300 ring-1 ring-amber-500',
+  ekadashi: 'bg-emerald-500', pradosha: 'bg-violet-500', sankranti: 'bg-orange-500'
+};
+function renderCalendar(){
+  if (!state.calMonth) state.calMonth = { y: state.date.y, m: state.date.m };
+  const { y, m } = state.calMonth, saura = masaSys() === 'saura', loc = LOCALE[state.lang];
+  const days = calendarDays(y, m), n = days.length - 1, firstWd = new Date(Date.UTC(y, m-1, 1)).getUTCDay();
+  $('calLabel').textContent = t('calendar');
+  $('calTitle').textContent = new Intl.DateTimeFormat(loc, { month:'long', year:'numeric', timeZone:'UTC' }).format(Date.UTC(y, m-1, 15));
+  // Months spanned, in the chosen system, plus the samvatsara
+  const months = [...new Set(days.slice(0, n).map(dd => saura ? sauraMonthName(dd.saura.rashi) : nm(masaName(dd.p))))];
+  const midP = days[14].p, sam = saura ? midP.sauraSamIdx : midP.samIdx;
+  $('calSub').textContent = `${months.join(' · ')} · ${nm(N.samvatsara[sam])}`;
+  $('calHead').innerHTML = [0,1,2,3,4,5,6].map(i => `<div class="${i === 0 ? 'text-rose-600 dark:text-rose-400' : ''}">${new Intl.DateTimeFormat(loc, { weekday:'narrow', timeZone:'UTC' }).format(Date.UTC(2026, 10, 1 + i))}</div>`).join('');
+  const today = todayInTz(), font = scriptFont();
+  let cells = '';
+  for (let i = 0; i < firstWd; i++) cells += '<div></div>';
+  for (let i = 0; i < n; i++){
+    const dd = days[i], mk = dayMarks(dd, days[i+1]), wd = (firstWd + i) % 7;
+    const sel = state.date.y === y && state.date.m === m && state.date.d === dd.d;
+    const isT = today.y === y && today.m === m && today.d === dd.d;
+    const tName = nm(tithiName(dd.p.tithiIdx));
+    const pk = sel ? '' : PAKSHA_TXT[dd.p.paksha];
+    const line2 = saura ? (dd.saura.day === 1 ? sauraMonthName(dd.saura.rashi) : String(dd.saura.day)) : tName;
+    const line3 = saura ? tName : nm(N.nakshatra[dd.p.nakIdx]);
+    const c2 = saura ? '' : pk, c3 = saura ? pk : 'opacity-70';
+    const dots = Object.keys(MARK).filter(k => mk[k]).map(k => `<span class="w-1.5 h-1.5 rounded-full ${MARK[k]}"></span>`).join('');
+    const base = sel ? 'bg-amber-500 text-white dark:text-slate-950' : isT ? 'ring-2 ring-amber-400 bg-amber-50 dark:bg-amber-500/10' : 'bg-stone-100/70 dark:bg-slate-800/50';
+    const dateCls = sel ? '' : wd === 0 ? 'text-rose-600 dark:text-rose-400' : '';
+    cells += `<button data-cd="${dd.d}" class="rounded-xl p-1 h-[4.25rem] text-left flex flex-col overflow-hidden ${base}" aria-label="${dd.d}">
+      <div class="flex items-start justify-between w-full"><span class="text-sm font-semibold tabular-nums leading-none ${dateCls}">${dd.d}</span><span class="flex flex-wrap justify-end gap-0.5 max-w-[60%]">${dots}</span></div>
+      <span class="mt-auto text-[10px] leading-tight truncate w-full font-medium ${c2} ${font}">${line2}</span>
+      <span class="text-[9px] leading-tight truncate w-full ${c3} ${font}">${line3}</span></button>`;
+  }
+  $('calGrid').innerHTML = cells;
+  $('calGrid').querySelectorAll('[data-cd]').forEach(b => b.onclick = () => {
+    setDate(y, m, +b.dataset.cd);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  $('calLegend').innerHTML = [0,1].map(i => `<span class="font-semibold ${PAKSHA_TXT[i]} ${font}">${nm(N.paksha[i])} ${t('paksha')}</span>`).join('') + Object.keys(MARK).map(k => `<span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full ${MARK[k]}"></span><span class="${font}">${nm(N.fest[k])}</span></span>`).join('');
+}
+function shiftMonth(n){
+  if (!state.calMonth) state.calMonth = { y: state.date.y, m: state.date.m };
+  const dt = new Date(Date.UTC(state.calMonth.y, state.calMonth.m - 1 + n, 1));
+  state.calMonth = { y: dt.getUTCFullYear(), m: dt.getUTCMonth() + 1 };
+  renderCalendar();
+}
+
+/* ======================= ANDROID APP HOOKS ======================= */
+const fmtClock = ms => new Intl.DateTimeFormat('en-IN', { hour:'numeric', minute:'2-digit', hour12:true, timeZone: state.loc.tz }).format(ms);
+// Next 30 days of window-start notifications for the current place
+function buildReminders(){
+  const { lat, lon, tz } = state.loc, now = Date.now(), d0 = todayInTz(), out = [];
+  const anchorLab = { pratah: t('sunrise'), madhya: t('noon'), sayam: t('sunset') };
+  for (let i = 0; i < 30; i++){
+    const dt = new Date(Date.UTC(d0.y, d0.m - 1, d0.d + i));
+    const base = zonedToUtc(dt.getUTCFullYear(), dt.getUTCMonth() + 1, dt.getUTCDate(), 12, 0, tz);
+    const noon = sunEvent(base, lat, lon, 0, 'noon'), rise = sunEvent(base, lat, lon, -0.8333, 'rise'), set = sunEvent(base, lat, lon, -0.8333, 'set');
+    if (rise == null || set == null) continue;
+    const w = windowsFor(rise, noon, set);
+    ['pratah','madhya','sayam'].forEach((s, k) => {
+      if (w[s].start <= now) return;
+      out.push({ id: 2000 + i*3 + k, at: Math.round(w[s].start), session: s,
+        title: `${t(s)} · ${fmtClock(w[s].start)}`,
+        body: `${fmtClock(w[s].start)} → ${fmtClock(w[s].end)} · ${anchorLab[s]} ${fmtClock(w[s].anchor)} · ${placeLabel()}` });
+    });
+  }
+  return out;
+}
+function syncReminders(){
+  if (!NATIVE) return;
+  if (state.remind) window.Android.scheduleReminders(JSON.stringify(buildReminders()));
+  else window.Android.cancelReminders();
+}
+function renderRemind(){
+  const b = $('remindBtn'), knob = b.firstElementChild;
+  b.setAttribute('aria-checked', state.remind);
+  b.className = `relative w-12 h-7 rounded-full transition shrink-0 ${state.remind ? 'bg-amber-500' : 'bg-stone-300 dark:bg-slate-700'}`;
+  knob.className = `absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition ${state.remind ? 'translate-x-5' : ''}`;
+}
+// Called by the Android app
+window.onNativeLocation = (lat, lon) => setLoc({ id:'geo', name:t('myLoc'), lat:+(+lat).toFixed(4), lon:+(+lon).toFixed(4), tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Asia/Kolkata' });
+window.onNativeLocationError = () => toast(t('locFail'));
+window.openSession = s => { if (!['pratah','madhya','sayam'].includes(s)) return; state.date = todayInTz(); state.day = null; state.session = s; state.sessionManual = true; renderAll(); };
+
+/* ======================= DEVOTIONAL AUDIO =======================
+   An original, synthesised tanpura drone (Pa Sa Sa Sa) with a soft temple bell
+   and gentle reverb, generated live with the Web Audio API. No external files. */
+const Audio2 = {
+  ctx: null, master: null, wet: null, timer: null, nextPluck: 0, step: 0, nextBell: 0, el: null,
+  on: store.get('music', true), vol: store.get('vol', 45), url: store.get('audioUrl', ''),
+  ensureCtx(){
+    if (this.ctx) return;
+    const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+    const ctx = this.ctx = new AC();
+    this.master = ctx.createGain(); this.master.gain.value = 0;
+    const comp = ctx.createDynamicsCompressor();
+    const conv = ctx.createConvolver(); const len = ctx.sampleRate*3.2, ir = ctx.createBuffer(2, len, ctx.sampleRate);
+    for (let ch = 0; ch < 2; ch++){ const data = ir.getChannelData(ch); for (let i = 0; i < len; i++) data[i] = (Math.random()*2 - 1)*Math.pow(1 - i/len, 2.6); }
+    conv.buffer = ir; this.wet = ctx.createGain(); this.wet.gain.value = 0.42;
+    this.dry = ctx.createGain(); this.dry.gain.value = 0.8;
+    this.bus = ctx.createGain();
+    this.bus.connect(this.dry); this.bus.connect(conv); conv.connect(this.wet);
+    this.dry.connect(this.master); this.wet.connect(this.master); this.master.connect(comp); comp.connect(ctx.destination);
+  },
+  pluck(freq, when, level){
+    const ctx = this.ctx, g = ctx.createGain(), f = ctx.createBiquadFilter();
+    f.type = 'lowpass'; f.Q.value = 6; f.frequency.setValueAtTime(freq*14, when); f.frequency.exponentialRampToValueAtTime(freq*3.2, when + 2.8);
+    g.gain.setValueAtTime(0.0001, when); g.gain.exponentialRampToValueAtTime(level, when + 0.03); g.gain.exponentialRampToValueAtTime(0.0001, when + 5.2);
+    const saw = ctx.createOscillator(); saw.type = 'sawtooth'; saw.frequency.value = freq;
+    const sine = ctx.createOscillator(); sine.type = 'sine'; sine.frequency.value = freq*1.0015;
+    const sg = ctx.createGain(); sg.gain.value = 0.9;
+    saw.connect(f); sine.connect(sg); sg.connect(f); f.connect(g); g.connect(this.bus);
+    for (const o of [saw, sine]){ o.start(when); o.stop(when + 5.4); }
+  },
+  bell(when){
+    const ctx = this.ctx, base = 587.33;
+    [[1, .22, 6], [2.76, .09, 3.5], [5.4, .05, 2], [8.93, .025, 1.2]].forEach(([r, a, dur]) => {
+      const o = ctx.createOscillator(), g = ctx.createGain(); o.type = 'sine'; o.frequency.value = base*r;
+      g.gain.setValueAtTime(0.0001, when); g.gain.exponentialRampToValueAtTime(a, when + 0.008); g.gain.exponentialRampToValueAtTime(0.0001, when + dur);
+      o.connect(g); g.connect(this.bus); o.start(when); o.stop(when + dur + 0.1);
+    });
+  },
+  schedule(){
+    const ctx = this.ctx; const sa = 146.83; // D3
+    const seq = [[sa*0.75, .16], [sa*2*0.5*2, .13], [sa*2*0.5*2, .12], [sa*0.5, .18]]; // Pa, Sa', Sa', Sa (mandra)
+    while (this.nextPluck < ctx.currentTime + 1.5){
+      const [fr, lv] = seq[this.step % 4]; this.pluck(fr, this.nextPluck, lv);
+      this.nextPluck += this.step % 4 === 3 ? 1.9 : 1.15; this.step++;
+    }
+    if (this.nextBell < ctx.currentTime + 1.5){ this.bell(this.nextBell); this.nextBell += 14 + Math.random()*8; }
+  },
+  start(){
+    if (this.url){ return this.startUrl(); }
+    this.ensureCtx(); if (!this.ctx) return Promise.resolve(false);
+    return this.ctx.resume().then(() => {
+      if (this.ctx.state !== 'running') return false;
+      if (!this.timer){ this.nextPluck = this.ctx.currentTime + 0.2; this.nextBell = this.ctx.currentTime + 2; this.timer = setInterval(() => this.schedule(), 400); this.schedule(); }
+      this.master.gain.cancelScheduledValues(this.ctx.currentTime);
+      this.master.gain.setTargetAtTime(this.vol/100*0.5, this.ctx.currentTime, 1.2);
+      return true;
+    }).catch(() => false);
+  },
+  startUrl(){
+    if (!this.el){ this.el = new Audio(); this.el.loop = true; this.el.preload = 'auto';
+      this.el.onerror = () => { toast(t('audioErr')); this.url = ''; store.set('audioUrl', ''); this.el = null; this.start().then(ok => syncAudioUi(ok)); }; }
+    if (this.el.src !== this.url) this.el.src = this.url;
+    this.el.volume = this.vol/100;
+    return this.el.play().then(() => true).catch(() => false);
+  },
+  stop(){
+    if (this.el) this.el.pause();
+    if (this.ctx && this.master){ this.master.gain.setTargetAtTime(0, this.ctx.currentTime, 0.4); const c = this.ctx;
+      setTimeout(() => { if (!Audio2.on){ clearInterval(Audio2.timer); Audio2.timer = null; c.suspend(); } }, 1500); }
+  },
+  setVol(v){ this.vol = v; store.set('vol', v); if (this.el) this.el.volume = v/100; if (this.ctx && this.master && this.on) this.master.gain.setTargetAtTime(v/100*0.5, this.ctx.currentTime, 0.2); }
+};
+function syncAudioUi(playing){
+  $('musicBtn').innerHTML = Audio2.on ? ICON.musicOn : ICON.musicOff;
+  $('musicBtn').classList.toggle('!text-amber-600', Audio2.on); $('musicBtn').classList.toggle('dark:!text-amber-300', Audio2.on);
+  $('audioBanner').classList.toggle('hidden', !(Audio2.on && !playing));
+}
+function initAudio(){
+  $('volIn').value = Audio2.vol; $('audioUrl').value = Audio2.url;
+  $('volIn').oninput = e => Audio2.setVol(+e.target.value);
+  $('audioSave').onclick = () => { Audio2.url = $('audioUrl').value.trim(); store.set('audioUrl', Audio2.url); toast(t('saved'));
+    if (Audio2.el){ Audio2.el.pause(); Audio2.el = null; } if (Audio2.ctx && Audio2.master) Audio2.master.gain.setTargetAtTime(0, Audio2.ctx.currentTime, 0.2);
+    if (Audio2.on) Audio2.start().then(syncAudioUi); };
+  $('musicBtn').onclick = () => {
+    Audio2.on = !Audio2.on; store.set('music', Audio2.on);
+    if (Audio2.on) Audio2.start().then(syncAudioUi); else { Audio2.stop(); syncAudioUi(false); }
+  };
+  // Try to begin immediately; browsers may require one tap first (autoplay policy)
+  const unlock = () => { if (!Audio2.on) return; Audio2.start().then(ok => { syncAudioUi(ok); if (ok) ['pointerdown','keydown','touchend'].forEach(ev => document.removeEventListener(ev, unlock, true)); }); };
+  ['pointerdown','keydown','touchend'].forEach(ev => document.addEventListener(ev, unlock, true));
+  syncAudioUi(false);  // draw button and show the tap banner until audio is confirmed running
+  if (Audio2.on) Audio2.start().then(syncAudioUi);
+  document.addEventListener('visibilitychange', () => {
+    if (!Audio2.on) return;
+    if (document.hidden){ if (Audio2.ctx) Audio2.ctx.suspend(); if (Audio2.el) Audio2.el.pause(); }
+    else Audio2.start().then(syncAudioUi);
+  });
+}
+
+/* ======================= BOOT ======================= */
+(function boot(){
+  state.date = todayInTz();
+  fillCoordFields();
+  bind();
+  renderAll();
+  initAudio();
+  if (NATIVE){
+    $('remindCard').classList.remove('hidden');
+    $('icsBtn').classList.add('hidden');
+    renderRemind();
+    window.Android.setSystemBars(document.documentElement.classList.contains('dark'));
+    syncReminders();
+  }
+  setInterval(() => { if (isToday()) renderAll(false); }, 60000);
+})();
+</script>
+</body>
+</html>

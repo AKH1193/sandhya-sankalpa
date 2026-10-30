@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sandhya Sankalpa</string>
+    <string name="channel_name">Sandhya reminders</string>
+    <string name="channel_desc">Alert at the start of each Sandhyavandanam window</string>
+</resources>
