@@ -4,6 +4,9 @@ on:
   push:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     # 24.04 images ship with the Android SDK preinstalled
@@ -41,3 +44,14 @@ jobs:
         with:
           name: SandhyaSankalpa-apk
           path: app/build/outputs/apk/release/*.apk
+
+      - name: Publish APK to Releases (latest)
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/outputs/apk/release/app-release.apk SandhyaSankalpa.apk
+          gh release delete latest --yes --cleanup-tag || true
+          gh release create latest SandhyaSankalpa.apk --latest \
+            --title "Sandhya Sankalpa (latest build)" \
+            --notes "Built from commit ${GITHUB_SHA::7}. Tap SandhyaSankalpa.apk to download, then open it to install."
