@@ -57,3 +57,9 @@ Or connect the phone with USB debugging on and press Run.
 The page is the same file as the web version, with the Tailwind styles compiled
 in so it works offline. After editing `assets/index.html`, rebuild and reinstall.
 Updates install over the previous version and keep your settings.
+
+## Sandhyāvandana vidhāna and Āśauca guide
+
+Below the Sankalpa, the page shows the full Kṛṣṇa Yajurveda (Taittirīya) Smārta Sandhyāvandana for Prātaḥ, Mādhyāhnika and Sāyam: 29 steps, each with what to do, the mantra in the reader's script (Kannada, Telugu, Tamil with Vedic superscripts, Devanagari, or English IAST/simple) and its meaning, plus a Gāyatrī japa counter. An Āśauca mode marks which steps are done, said mentally or left out during sūtaka or puruḍu. A second card covers āśauca periods, ending āśauca, tīrtha svīkāra and yajñopavīta dhāraṇa with mantras.
+
+The text lives in `app/src/main/assets/vidhana-data.js` and is drawn by `vidhana.js`; the web version has both inlined.
